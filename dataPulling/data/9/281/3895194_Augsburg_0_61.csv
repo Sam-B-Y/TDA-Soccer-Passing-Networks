@@ -1,0 +1,45 @@
+player_a,x,y,player_b,pass_count
+Elvis Rexhbeçaj,43.58571428571429,29.514285714285712,Ermedin Demirović,2
+Elvis Rexhbeçaj,43.58571428571429,29.514285714285712,Felix Uduokhai,4
+Elvis Rexhbeçaj,43.58571428571429,29.514285714285712,Finn Dahmen,4
+Elvis Rexhbeçaj,43.58571428571429,29.514285714285712,Iago Amaral Borduchi,5
+Elvis Rexhbeçaj,43.58571428571429,29.514285714285712,Jeffrey Gouweleeuw,1
+Elvis Rexhbeçaj,43.58571428571429,29.514285714285712,Niklas Dorsch,3
+Elvis Rexhbeçaj,43.58571428571429,29.514285714285712,Ruben Vargas,1
+Ermedin Demirović,73.8,21.599999999999998,Felix Uduokhai,1
+Ermedin Demirović,73.8,21.599999999999998,Finn Dahmen,3
+Ermedin Demirović,73.8,21.599999999999998,Fredrik Jensen,2
+Ermedin Demirović,73.8,21.599999999999998,Iago Amaral Borduchi,3
+Ermedin Demirović,73.8,21.599999999999998,Niklas Dorsch,1
+Ermedin Demirović,73.8,21.599999999999998,Phillip Tietz,7
+Ermedin Demirović,73.8,21.599999999999998,Ruben Vargas,4
+Felix Uduokhai,29.94347826086957,27.97826086956522,Finn Dahmen,15
+Felix Uduokhai,29.94347826086957,27.97826086956522,Fredrik Jensen,1
+Felix Uduokhai,29.94347826086957,27.97826086956522,Iago Amaral Borduchi,9
+Felix Uduokhai,29.94347826086957,27.97826086956522,Jeffrey Gouweleeuw,1
+Felix Uduokhai,29.94347826086957,27.97826086956522,Niklas Dorsch,8
+Felix Uduokhai,29.94347826086957,27.97826086956522,Phillip Tietz,1
+Felix Uduokhai,29.94347826086957,27.97826086956522,Ruben Vargas,2
+Finn Dahmen,18.099999999999998,40.404545454545456,Iago Amaral Borduchi,2
+Finn Dahmen,18.099999999999998,40.404545454545456,Jeffrey Gouweleeuw,7
+Finn Dahmen,18.099999999999998,40.404545454545456,Kevin Mbabu,2
+Finn Dahmen,18.099999999999998,40.404545454545456,Niklas Dorsch,2
+Finn Dahmen,18.099999999999998,40.404545454545456,Phillip Tietz,4
+Finn Dahmen,18.099999999999998,40.404545454545456,Ruben Vargas,2
+Fredrik Jensen,64.7,60.52307692307692,Iago Amaral Borduchi,1
+Fredrik Jensen,64.7,60.52307692307692,Jeffrey Gouweleeuw,7
+Fredrik Jensen,64.7,60.52307692307692,Kevin Mbabu,8
+Fredrik Jensen,64.7,60.52307692307692,Niklas Dorsch,1
+Fredrik Jensen,64.7,60.52307692307692,Phillip Tietz,4
+Iago Amaral Borduchi,52.99285714285714,10.37142857142857,Jeffrey Gouweleeuw,2
+Iago Amaral Borduchi,52.99285714285714,10.37142857142857,Phillip Tietz,2
+Iago Amaral Borduchi,52.99285714285714,10.37142857142857,Ruben Vargas,2
+Jeffrey Gouweleeuw,44.588235294117645,58.088235294117645,Kevin Mbabu,3
+Jeffrey Gouweleeuw,44.588235294117645,58.088235294117645,Niklas Dorsch,6
+Jeffrey Gouweleeuw,44.588235294117645,58.088235294117645,Ruben Vargas,4
+Kevin Mbabu,63.0875,66.4125,Niklas Dorsch,1
+Kevin Mbabu,63.0875,66.4125,Phillip Tietz,1
+Kevin Mbabu,63.0875,66.4125,Ruben Vargas,1
+Niklas Dorsch,47.33125,38.44375,Phillip Tietz,1
+Niklas Dorsch,47.33125,38.44375,Ruben Vargas,4
+Phillip Tietz,58.55714285714286,37.1,Ruben Vargas,7

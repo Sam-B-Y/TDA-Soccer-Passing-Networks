@@ -1,0 +1,47 @@
+player_a,x,y,player_b,pass_count
+Anthony Caci,41.00714285714286,25.24285714285714,Brajan Gruda,1
+Anthony Caci,41.00714285714286,25.24285714285714,Jae-Sung Lee,7
+Anthony Caci,41.00714285714286,25.24285714285714,Karim Onisiwo,1
+Anthony Caci,41.00714285714286,25.24285714285714,Leandro Barreiro Martins,1
+Anthony Caci,41.00714285714286,25.24285714285714,Nadiem Amiri,7
+Anthony Caci,41.00714285714286,25.24285714285714,Philipp Mwene,1
+Anthony Caci,41.00714285714286,25.24285714285714,Robin Zentner,1
+Anthony Caci,41.00714285714286,25.24285714285714,Sepp van den Berg,6
+Anthony Caci,41.00714285714286,25.24285714285714,Silvan Widmer,1
+Brajan Gruda,73.0,65.2090909090909,Dominik Kohr,4
+Brajan Gruda,73.0,65.2090909090909,Jae-Sung Lee,2
+Brajan Gruda,73.0,65.2090909090909,Karim Onisiwo,4
+Brajan Gruda,73.0,65.2090909090909,Leandro Barreiro Martins,1
+Brajan Gruda,73.0,65.2090909090909,Nadiem Amiri,6
+Brajan Gruda,73.0,65.2090909090909,Philipp Mwene,1
+Brajan Gruda,73.0,65.2090909090909,Sepp van den Berg,2
+Brajan Gruda,73.0,65.2090909090909,Silvan Widmer,8
+Dominik Kohr,42.73846153846154,59.107692307692304,Leandro Barreiro Martins,4
+Dominik Kohr,42.73846153846154,59.107692307692304,Nadiem Amiri,3
+Dominik Kohr,42.73846153846154,59.107692307692304,Robin Zentner,1
+Dominik Kohr,42.73846153846154,59.107692307692304,Sepp van den Berg,7
+Dominik Kohr,42.73846153846154,59.107692307692304,Silvan Widmer,8
+Jae-Sung Lee,63.9,22.114285714285717,Karim Onisiwo,2
+Jae-Sung Lee,63.9,22.114285714285717,Leandro Barreiro Martins,1
+Jae-Sung Lee,63.9,22.114285714285717,Nadiem Amiri,6
+Jae-Sung Lee,63.9,22.114285714285717,Philipp Mwene,6
+Jae-Sung Lee,63.9,22.114285714285717,Sepp van den Berg,3
+Jae-Sung Lee,63.9,22.114285714285717,Silvan Widmer,1
+Karim Onisiwo,78.475,51.650000000000006,Leandro Barreiro Martins,3
+Karim Onisiwo,78.475,51.650000000000006,Nadiem Amiri,4
+Karim Onisiwo,78.475,51.650000000000006,Philipp Mwene,4
+Karim Onisiwo,78.475,51.650000000000006,Robin Zentner,2
+Karim Onisiwo,78.475,51.650000000000006,Silvan Widmer,5
+Leandro Barreiro Martins,52.589999999999996,44.05,Nadiem Amiri,4
+Leandro Barreiro Martins,52.589999999999996,44.05,Philipp Mwene,2
+Leandro Barreiro Martins,52.589999999999996,44.05,Sepp van den Berg,2
+Leandro Barreiro Martins,52.589999999999996,44.05,Silvan Widmer,3
+Nadiem Amiri,57.22380952380953,35.857142857142854,Philipp Mwene,2
+Nadiem Amiri,57.22380952380953,35.857142857142854,Sepp van den Berg,3
+Nadiem Amiri,57.22380952380953,35.857142857142854,Silvan Widmer,4
+Philipp Mwene,49.74444444444444,7.7555555555555555,Robin Zentner,1
+Philipp Mwene,49.74444444444444,7.7555555555555555,Sepp van den Berg,1
+Philipp Mwene,49.74444444444444,7.7555555555555555,Silvan Widmer,1
+Robin Zentner,18.2,39.06666666666667,Sepp van den Berg,2
+Robin Zentner,18.2,39.06666666666667,Silvan Widmer,2
+Sepp van den Berg,41.8,40.333333333333336,Silvan Widmer,4

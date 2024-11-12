@@ -1,0 +1,43 @@
+player_a,x,y,player_b,pass_count
+Anthony Losilla,52.059999999999995,38.526666666666664,Christopher Antwi-Adjej,2
+Anthony Losilla,52.059999999999995,38.526666666666664,Cristian Gamboa Luna,3
+Anthony Losilla,52.059999999999995,38.526666666666664,Erhan Mašović,1
+Anthony Losilla,52.059999999999995,38.526666666666664,Gonçalo Mendes Paciencia,1
+Anthony Losilla,52.059999999999995,38.526666666666664,Keven Schlotterbeck,3
+Anthony Losilla,52.059999999999995,38.526666666666664,Manuel Riemann,3
+Anthony Losilla,52.059999999999995,38.526666666666664,Matúš Bero,5
+Anthony Losilla,52.059999999999995,38.526666666666664,Patrick Osterhage,2
+Anthony Losilla,52.059999999999995,38.526666666666664,Takuma Asano,2
+Bernardo Fernandes da Silva Junior,60.900000000000006,9.100000000000001,Christopher Antwi-Adjej,5
+Bernardo Fernandes da Silva Junior,60.900000000000006,9.100000000000001,Cristian Gamboa Luna,1
+Bernardo Fernandes da Silva Junior,60.900000000000006,9.100000000000001,Gonçalo Mendes Paciencia,4
+Bernardo Fernandes da Silva Junior,60.900000000000006,9.100000000000001,Keven Schlotterbeck,1
+Bernardo Fernandes da Silva Junior,60.900000000000006,9.100000000000001,Manuel Riemann,3
+Bernardo Fernandes da Silva Junior,60.900000000000006,9.100000000000001,Patrick Osterhage,2
+Christopher Antwi-Adjej,88.80000000000001,9.366666666666667,Erhan Mašović,1
+Christopher Antwi-Adjej,88.80000000000001,9.366666666666667,Gonçalo Mendes Paciencia,1
+Christopher Antwi-Adjej,88.80000000000001,9.366666666666667,Keven Schlotterbeck,4
+Christopher Antwi-Adjej,88.80000000000001,9.366666666666667,Manuel Riemann,1
+Christopher Antwi-Adjej,88.80000000000001,9.366666666666667,Matúš Bero,2
+Christopher Antwi-Adjej,88.80000000000001,9.366666666666667,Patrick Osterhage,3
+Christopher Antwi-Adjej,88.80000000000001,9.366666666666667,Takuma Asano,2
+Cristian Gamboa Luna,47.61,69.52000000000001,Erhan Mašović,5
+Cristian Gamboa Luna,47.61,69.52000000000001,Gonçalo Mendes Paciencia,1
+Cristian Gamboa Luna,47.61,69.52000000000001,Manuel Riemann,6
+Cristian Gamboa Luna,47.61,69.52000000000001,Matúš Bero,1
+Cristian Gamboa Luna,47.61,69.52000000000001,Patrick Osterhage,2
+Cristian Gamboa Luna,47.61,69.52000000000001,Takuma Asano,1
+Erhan Mašović,43.0,60.41428571428571,Keven Schlotterbeck,2
+Erhan Mašović,43.0,60.41428571428571,Manuel Riemann,4
+Erhan Mašović,43.0,60.41428571428571,Patrick Osterhage,1
+Gonçalo Mendes Paciencia,72.77142857142857,29.75714285714286,Keven Schlotterbeck,1
+Gonçalo Mendes Paciencia,72.77142857142857,29.75714285714286,Manuel Riemann,3
+Gonçalo Mendes Paciencia,72.77142857142857,29.75714285714286,Matúš Bero,5
+Gonçalo Mendes Paciencia,72.77142857142857,29.75714285714286,Patrick Osterhage,1
+Gonçalo Mendes Paciencia,72.77142857142857,29.75714285714286,Takuma Asano,2
+Keven Schlotterbeck,41.345454545454544,24.272727272727273,Manuel Riemann,5
+Keven Schlotterbeck,41.345454545454544,24.272727272727273,Matúš Bero,1
+Keven Schlotterbeck,41.345454545454544,24.272727272727273,Patrick Osterhage,2
+Manuel Riemann,16.349999999999998,38.0,Matúš Bero,2
+Manuel Riemann,16.349999999999998,38.0,Patrick Osterhage,4
+Matúš Bero,65.49,35.11,Takuma Asano,1

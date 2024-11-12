@@ -1,0 +1,52 @@
+player_a,x,y,player_b,pass_count
+Anthony Caci,54.44,8.796,Brajan Gruda,6
+Anthony Caci,54.44,8.796,Dominik Kohr,3
+Anthony Caci,54.44,8.796,Edimilson Fernandes,14
+Anthony Caci,54.44,8.796,Jae-Sung Lee,10
+Anthony Caci,54.44,8.796,Karim Onisiwo,4
+Anthony Caci,54.44,8.796,Leandro Barreiro Martins,3
+Anthony Caci,54.44,8.796,Robin Zentner,4
+Anthony Caci,54.44,8.796,Stefan Bell,1
+Brajan Gruda,86.3578947368421,45.43684210526315,Danny Vieira da Costa,12
+Brajan Gruda,86.3578947368421,45.43684210526315,Dominik Kohr,4
+Brajan Gruda,86.3578947368421,45.43684210526315,Edimilson Fernandes,3
+Brajan Gruda,86.3578947368421,45.43684210526315,Jae-Sung Lee,2
+Brajan Gruda,86.3578947368421,45.43684210526315,Karim Onisiwo,7
+Brajan Gruda,86.3578947368421,45.43684210526315,Leandro Barreiro Martins,3
+Brajan Gruda,86.3578947368421,45.43684210526315,Robin Zentner,1
+Brajan Gruda,86.3578947368421,45.43684210526315,Sepp van den Berg,5
+Brajan Gruda,86.3578947368421,45.43684210526315,Stefan Bell,3
+Danny Vieira da Costa,67.2,71.81666666666666,Dominik Kohr,10
+Danny Vieira da Costa,67.2,71.81666666666666,Edimilson Fernandes,1
+Danny Vieira da Costa,67.2,71.81666666666666,Jae-Sung Lee,3
+Danny Vieira da Costa,67.2,71.81666666666666,Karim Onisiwo,4
+Danny Vieira da Costa,67.2,71.81666666666666,Leandro Barreiro Martins,5
+Danny Vieira da Costa,67.2,71.81666666666666,Robin Zentner,3
+Danny Vieira da Costa,67.2,71.81666666666666,Sepp van den Berg,11
+Danny Vieira da Costa,67.2,71.81666666666666,Stefan Bell,2
+Dominik Kohr,56.18529411764706,47.497058823529414,Edimilson Fernandes,11
+Dominik Kohr,56.18529411764706,47.497058823529414,Jae-Sung Lee,4
+Dominik Kohr,56.18529411764706,47.497058823529414,Karim Onisiwo,4
+Dominik Kohr,56.18529411764706,47.497058823529414,Leandro Barreiro Martins,11
+Dominik Kohr,56.18529411764706,47.497058823529414,Robin Zentner,4
+Dominik Kohr,56.18529411764706,47.497058823529414,Sepp van den Berg,10
+Dominik Kohr,56.18529411764706,47.497058823529414,Stefan Bell,7
+Edimilson Fernandes,48.87027027027027,31.078378378378382,Jae-Sung Lee,6
+Edimilson Fernandes,48.87027027027027,31.078378378378382,Karim Onisiwo,3
+Edimilson Fernandes,48.87027027027027,31.078378378378382,Leandro Barreiro Martins,9
+Edimilson Fernandes,48.87027027027027,31.078378378378382,Robin Zentner,5
+Edimilson Fernandes,48.87027027027027,31.078378378378382,Sepp van den Berg,1
+Edimilson Fernandes,48.87027027027027,31.078378378378382,Stefan Bell,15
+Jae-Sung Lee,64.95238095238095,24.261904761904763,Karim Onisiwo,4
+Jae-Sung Lee,64.95238095238095,24.261904761904763,Leandro Barreiro Martins,8
+Jae-Sung Lee,64.95238095238095,24.261904761904763,Sepp van den Berg,2
+Jae-Sung Lee,64.95238095238095,24.261904761904763,Stefan Bell,1
+Karim Onisiwo,72.07692307692308,43.900000000000006,Leandro Barreiro Martins,3
+Karim Onisiwo,72.07692307692308,43.900000000000006,Sepp van den Berg,4
+Karim Onisiwo,72.07692307692308,43.900000000000006,Stefan Bell,4
+Leandro Barreiro Martins,54.91290322580645,50.70645161290323,Robin Zentner,2
+Leandro Barreiro Martins,54.91290322580645,50.70645161290323,Sepp van den Berg,5
+Leandro Barreiro Martins,54.91290322580645,50.70645161290323,Stefan Bell,10
+Robin Zentner,9.98125,42.73125,Sepp van den Berg,2
+Robin Zentner,9.98125,42.73125,Stefan Bell,10
+Sepp van den Berg,57.63448275862069,67.65517241379311,Stefan Bell,14

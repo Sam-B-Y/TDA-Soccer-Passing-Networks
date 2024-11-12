@@ -1,0 +1,51 @@
+player_a,x,y,player_b,pass_count
+Adam Hložek,69.80666666666666,23.386666666666667,Alejandro Grimaldo García,15
+Adam Hložek,69.80666666666666,23.386666666666667,Exequiel Alejandro Palacios,4
+Adam Hložek,69.80666666666666,23.386666666666667,Granit Xhaka,4
+Adam Hložek,69.80666666666666,23.386666666666667,Jeremie Frimpong,2
+Adam Hložek,69.80666666666666,23.386666666666667,Jonas Hofmann,6
+Adam Hložek,69.80666666666666,23.386666666666667,Josip Stanišić,1
+Adam Hložek,69.80666666666666,23.386666666666667,Patrik Schick,1
+Adam Hložek,69.80666666666666,23.386666666666667,Piero Martín Hincapié Reyna,4
+Alejandro Grimaldo García,57.51632653061225,11.459183673469388,Exequiel Alejandro Palacios,19
+Alejandro Grimaldo García,57.51632653061225,11.459183673469388,Granit Xhaka,13
+Alejandro Grimaldo García,57.51632653061225,11.459183673469388,Jeremie Frimpong,2
+Alejandro Grimaldo García,57.51632653061225,11.459183673469388,Jonas Hofmann,4
+Alejandro Grimaldo García,57.51632653061225,11.459183673469388,Josip Stanišić,3
+Alejandro Grimaldo García,57.51632653061225,11.459183673469388,Lukáš Hrádecký,2
+Alejandro Grimaldo García,57.51632653061225,11.459183673469388,Patrik Schick,1
+Alejandro Grimaldo García,57.51632653061225,11.459183673469388,Piero Martín Hincapié Reyna,29
+Alejandro Grimaldo García,57.51632653061225,11.459183673469388,Robert Andrich,9
+Exequiel Alejandro Palacios,62.57361111111111,38.28472222222222,Granit Xhaka,29
+Exequiel Alejandro Palacios,62.57361111111111,38.28472222222222,Jeremie Frimpong,11
+Exequiel Alejandro Palacios,62.57361111111111,38.28472222222222,Jonas Hofmann,21
+Exequiel Alejandro Palacios,62.57361111111111,38.28472222222222,Josip Stanišić,8
+Exequiel Alejandro Palacios,62.57361111111111,38.28472222222222,Lukáš Hrádecký,3
+Exequiel Alejandro Palacios,62.57361111111111,38.28472222222222,Patrik Schick,5
+Exequiel Alejandro Palacios,62.57361111111111,38.28472222222222,Piero Martín Hincapié Reyna,19
+Exequiel Alejandro Palacios,62.57361111111111,38.28472222222222,Robert Andrich,22
+Granit Xhaka,65.4917808219178,47.45205479452055,Jeremie Frimpong,24
+Granit Xhaka,65.4917808219178,47.45205479452055,Jonas Hofmann,23
+Granit Xhaka,65.4917808219178,47.45205479452055,Josip Stanišić,17
+Granit Xhaka,65.4917808219178,47.45205479452055,Lukáš Hrádecký,5
+Granit Xhaka,65.4917808219178,47.45205479452055,Patrik Schick,4
+Granit Xhaka,65.4917808219178,47.45205479452055,Piero Martín Hincapié Reyna,8
+Granit Xhaka,65.4917808219178,47.45205479452055,Robert Andrich,22
+Jeremie Frimpong,72.43255813953488,69.47906976744186,Jonas Hofmann,23
+Jeremie Frimpong,72.43255813953488,69.47906976744186,Josip Stanišić,21
+Jeremie Frimpong,72.43255813953488,69.47906976744186,Lukáš Hrádecký,1
+Jeremie Frimpong,72.43255813953488,69.47906976744186,Patrik Schick,3
+Jeremie Frimpong,72.43255813953488,69.47906976744186,Robert Andrich,3
+Jonas Hofmann,77.74509803921569,59.721568627450985,Josip Stanišić,15
+Jonas Hofmann,77.74509803921569,59.721568627450985,Lukáš Hrádecký,1
+Jonas Hofmann,77.74509803921569,59.721568627450985,Patrik Schick,4
+Jonas Hofmann,77.74509803921569,59.721568627450985,Piero Martín Hincapié Reyna,4
+Jonas Hofmann,77.74509803921569,59.721568627450985,Robert Andrich,6
+Josip Stanišić,54.64107142857143,62.9625,Lukáš Hrádecký,8
+Josip Stanišić,54.64107142857143,62.9625,Patrik Schick,2
+Josip Stanišić,54.64107142857143,62.9625,Piero Martín Hincapié Reyna,4
+Josip Stanišić,54.64107142857143,62.9625,Robert Andrich,24
+Lukáš Hrádecký,10.5375,41.106249999999996,Piero Martín Hincapié Reyna,5
+Lukáš Hrádecký,10.5375,41.106249999999996,Robert Andrich,1
+Patrik Schick,83.45714285714287,55.857142857142854,Robert Andrich,1
+Piero Martín Hincapié Reyna,53.27346938775511,16.99591836734694,Robert Andrich,24

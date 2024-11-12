@@ -1,0 +1,49 @@
+player_a,x,y,player_b,pass_count
+Benjamin Henrichs,51.03636363636364,70.4969696969697,Daniel Olmo Carvajal,4
+Benjamin Henrichs,51.03636363636364,70.4969696969697,David Raum,3
+Benjamin Henrichs,51.03636363636364,70.4969696969697,Ikoma Loïs Openda,3
+Benjamin Henrichs,51.03636363636364,70.4969696969697,Janis Blaswich,1
+Benjamin Henrichs,51.03636363636364,70.4969696969697,Mohamed Simakan,28
+Benjamin Henrichs,51.03636363636364,70.4969696969697,Nicolas Seiwald,5
+Benjamin Henrichs,51.03636363636364,70.4969696969697,Timo Werner,4
+Benjamin Henrichs,51.03636363636364,70.4969696969697,Willi Orban,2
+Benjamin Henrichs,51.03636363636364,70.4969696969697,Xaver Schlager,2
+Benjamin Henrichs,51.03636363636364,70.4969696969697,Xavi Simons,17
+Daniel Olmo Carvajal,54.93125,29.125,David Raum,9
+Daniel Olmo Carvajal,54.93125,29.125,Ikoma Loïs Openda,5
+Daniel Olmo Carvajal,54.93125,29.125,Janis Blaswich,1
+Daniel Olmo Carvajal,54.93125,29.125,Mohamed Simakan,1
+Daniel Olmo Carvajal,54.93125,29.125,Nicolas Seiwald,1
+Daniel Olmo Carvajal,54.93125,29.125,Timo Werner,2
+Daniel Olmo Carvajal,54.93125,29.125,Willi Orban,3
+Daniel Olmo Carvajal,54.93125,29.125,Xaver Schlager,4
+Daniel Olmo Carvajal,54.93125,29.125,Xavi Simons,4
+David Raum,47.2325,8.0875,Ikoma Loïs Openda,4
+David Raum,47.2325,8.0875,Janis Blaswich,6
+David Raum,47.2325,8.0875,Mohamed Simakan,1
+David Raum,47.2325,8.0875,Nicolas Seiwald,1
+David Raum,47.2325,8.0875,Timo Werner,5
+David Raum,47.2325,8.0875,Willi Orban,33
+David Raum,47.2325,8.0875,Xaver Schlager,8
+Ikoma Loïs Openda,63.833333333333336,36.75,Timo Werner,4
+Ikoma Loïs Openda,63.833333333333336,36.75,Willi Orban,1
+Ikoma Loïs Openda,63.833333333333336,36.75,Xaver Schlager,2
+Ikoma Loïs Openda,63.833333333333336,36.75,Xavi Simons,7
+Janis Blaswich,10.326666666666666,41.46666666666667,Mohamed Simakan,19
+Janis Blaswich,10.326666666666666,41.46666666666667,Nicolas Seiwald,2
+Janis Blaswich,10.326666666666666,41.46666666666667,Willi Orban,21
+Mohamed Simakan,34.96415094339623,58.96037735849057,Nicolas Seiwald,13
+Mohamed Simakan,34.96415094339623,58.96037735849057,Timo Werner,3
+Mohamed Simakan,34.96415094339623,58.96037735849057,Willi Orban,24
+Mohamed Simakan,34.96415094339623,58.96037735849057,Xaver Schlager,9
+Mohamed Simakan,34.96415094339623,58.96037735849057,Xavi Simons,6
+Nicolas Seiwald,48.260000000000005,49.945,Timo Werner,1
+Nicolas Seiwald,48.260000000000005,49.945,Willi Orban,7
+Nicolas Seiwald,48.260000000000005,49.945,Xaver Schlager,4
+Nicolas Seiwald,48.260000000000005,49.945,Xavi Simons,4
+Timo Werner,81.925,25.7125,Willi Orban,6
+Timo Werner,81.925,25.7125,Xaver Schlager,4
+Timo Werner,81.925,25.7125,Xavi Simons,2
+Willi Orban,34.038709677419355,24.72741935483871,Xaver Schlager,23
+Willi Orban,34.038709677419355,24.72741935483871,Xavi Simons,3
+Xaver Schlager,48.73571428571428,29.589285714285715,Xavi Simons,1

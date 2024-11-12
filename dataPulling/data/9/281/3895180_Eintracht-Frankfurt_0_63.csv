@@ -1,0 +1,48 @@
+player_a,x,y,player_b,pass_count
+Ansgar Knauff,67.45,11.299999999999999,Eric Junior Dina Ebimbe,2
+Ansgar Knauff,67.45,11.299999999999999,Fares Chaïbi,4
+Ansgar Knauff,67.45,11.299999999999999,Hugo Larsson,1
+Ansgar Knauff,67.45,11.299999999999999,Kevin Trapp,1
+Ansgar Knauff,67.45,11.299999999999999,Mario Götze,1
+Ansgar Knauff,67.45,11.299999999999999,Niels Nkounkou,3
+Ansgar Knauff,67.45,11.299999999999999,Willian Joel Pacho Tenorio,2
+Aurélio Gabriel Ulineia Buta,60.9,69.60357142857143,Eric Junior Dina Ebimbe,5
+Aurélio Gabriel Ulineia Buta,60.9,69.60357142857143,Fares Chaïbi,6
+Aurélio Gabriel Ulineia Buta,60.9,69.60357142857143,Hugo Larsson,12
+Aurélio Gabriel Ulineia Buta,60.9,69.60357142857143,Kevin Trapp,8
+Aurélio Gabriel Ulineia Buta,60.9,69.60357142857143,Lucas Silva Melo,16
+Aurélio Gabriel Ulineia Buta,60.9,69.60357142857143,Mario Götze,4
+Aurélio Gabriel Ulineia Buta,60.9,69.60357142857143,Niels Nkounkou,2
+Aurélio Gabriel Ulineia Buta,60.9,69.60357142857143,Robin Koch,4
+Aurélio Gabriel Ulineia Buta,60.9,69.60357142857143,Willian Joel Pacho Tenorio,2
+Eric Junior Dina Ebimbe,59.300000000000004,50.31666666666666,Fares Chaïbi,4
+Eric Junior Dina Ebimbe,59.300000000000004,50.31666666666666,Hugo Larsson,6
+Eric Junior Dina Ebimbe,59.300000000000004,50.31666666666666,Kevin Trapp,1
+Eric Junior Dina Ebimbe,59.300000000000004,50.31666666666666,Lucas Silva Melo,5
+Eric Junior Dina Ebimbe,59.300000000000004,50.31666666666666,Mario Götze,4
+Eric Junior Dina Ebimbe,59.300000000000004,50.31666666666666,Robin Koch,3
+Fares Chaïbi,72.15,41.15,Hugo Larsson,2
+Fares Chaïbi,72.15,41.15,Lucas Silva Melo,4
+Fares Chaïbi,72.15,41.15,Mario Götze,7
+Fares Chaïbi,72.15,41.15,Niels Nkounkou,5
+Fares Chaïbi,72.15,41.15,Robin Koch,3
+Hugo Larsson,56.05128205128205,46.58974358974359,Kevin Trapp,6
+Hugo Larsson,56.05128205128205,46.58974358974359,Lucas Silva Melo,5
+Hugo Larsson,56.05128205128205,46.58974358974359,Mario Götze,10
+Hugo Larsson,56.05128205128205,46.58974358974359,Niels Nkounkou,11
+Hugo Larsson,56.05128205128205,46.58974358974359,Robin Koch,9
+Hugo Larsson,56.05128205128205,46.58974358974359,Willian Joel Pacho Tenorio,9
+Kevin Trapp,11.342857142857142,41.38095238095238,Lucas Silva Melo,6
+Kevin Trapp,11.342857142857142,41.38095238095238,Niels Nkounkou,2
+Kevin Trapp,11.342857142857142,41.38095238095238,Robin Koch,8
+Kevin Trapp,11.342857142857142,41.38095238095238,Willian Joel Pacho Tenorio,10
+Lucas Silva Melo,48.03030303030303,63.02727272727273,Mario Götze,2
+Lucas Silva Melo,48.03030303030303,63.02727272727273,Niels Nkounkou,4
+Lucas Silva Melo,48.03030303030303,63.02727272727273,Robin Koch,14
+Lucas Silva Melo,48.03030303030303,63.02727272727273,Willian Joel Pacho Tenorio,7
+Mario Götze,55.92999999999999,37.910000000000004,Niels Nkounkou,6
+Mario Götze,55.92999999999999,37.910000000000004,Robin Koch,3
+Mario Götze,55.92999999999999,37.910000000000004,Willian Joel Pacho Tenorio,5
+Niels Nkounkou,52.99032258064516,12.938709677419356,Robin Koch,4
+Niels Nkounkou,52.99032258064516,12.938709677419356,Willian Joel Pacho Tenorio,21
+Robin Koch,41.163333333333334,49.42666666666666,Willian Joel Pacho Tenorio,10

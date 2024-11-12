@@ -1,0 +1,44 @@
+player_a,x,y,player_b,pass_count
+András Schäfer,66.86428571428571,21.571428571428573,Brenden Aaronson,6
+András Schäfer,66.86428571428571,21.571428571428573,Danilho Doekhi,4
+András Schäfer,66.86428571428571,21.571428571428573,Diogo Filipe Monteiro Pinto Leite,6
+András Schäfer,66.86428571428571,21.571428571428573,Kevin Vogt,1
+András Schäfer,66.86428571428571,21.571428571428573,Robin Gosens,14
+Brenden Aaronson,61.4125,33.25,Christopher Trimmel,1
+Brenden Aaronson,61.4125,33.25,Danilho Doekhi,1
+Brenden Aaronson,61.4125,33.25,Frederik Rønnow,1
+Brenden Aaronson,61.4125,33.25,Kevin Vogt,2
+Brenden Aaronson,61.4125,33.25,Lucas Tousart,1
+Brenden Aaronson,61.4125,33.25,Rani Khedira,3
+Brenden Aaronson,61.4125,33.25,Robin Gosens,1
+Christopher Trimmel,57.290909090909096,65.55454545454546,Danilho Doekhi,5
+Christopher Trimmel,57.290909090909096,65.55454545454546,Frederik Rønnow,5
+Christopher Trimmel,57.290909090909096,65.55454545454546,Kevin Vogt,1
+Christopher Trimmel,57.290909090909096,65.55454545454546,Lucas Tousart,4
+Christopher Trimmel,57.290909090909096,65.55454545454546,Rani Khedira,1
+Christopher Trimmel,57.290909090909096,65.55454545454546,Robin Gosens,1
+Christopher Trimmel,57.290909090909096,65.55454545454546,Yorbe Vertessen,2
+Danilho Doekhi,42.11538461538461,64.6,Diogo Filipe Monteiro Pinto Leite,3
+Danilho Doekhi,42.11538461538461,64.6,Frederik Rønnow,4
+Danilho Doekhi,42.11538461538461,64.6,Kevin Vogt,8
+Danilho Doekhi,42.11538461538461,64.6,Lucas Tousart,1
+Danilho Doekhi,42.11538461538461,64.6,Rani Khedira,1
+Danilho Doekhi,42.11538461538461,64.6,Robin Gosens,1
+Diogo Filipe Monteiro Pinto Leite,44.52222222222222,15.816666666666666,Frederik Rønnow,6
+Diogo Filipe Monteiro Pinto Leite,44.52222222222222,15.816666666666666,Kevin Vogt,9
+Diogo Filipe Monteiro Pinto Leite,44.52222222222222,15.816666666666666,Lucas Tousart,1
+Diogo Filipe Monteiro Pinto Leite,44.52222222222222,15.816666666666666,Rani Khedira,1
+Diogo Filipe Monteiro Pinto Leite,44.52222222222222,15.816666666666666,Robin Gosens,11
+Frederik Rønnow,10.978947368421052,44.77368421052632,Kevin Vogt,11
+Frederik Rønnow,10.978947368421052,44.77368421052632,Rani Khedira,1
+Frederik Rønnow,10.978947368421052,44.77368421052632,Robin Gosens,2
+Frederik Rønnow,10.978947368421052,44.77368421052632,Yorbe Vertessen,1
+Kevin Vogt,30.68,41.485,Lucas Tousart,2
+Kevin Vogt,30.68,41.485,Rani Khedira,2
+Kevin Vogt,30.68,41.485,Robin Gosens,1
+Kevin Vogt,30.68,41.485,Yorbe Vertessen,1
+Lucas Tousart,53.65714285714286,66.18571428571428,Rani Khedira,3
+Lucas Tousart,53.65714285714286,66.18571428571428,Yorbe Vertessen,1
+Rani Khedira,67.21000000000001,41.730000000000004,Robin Gosens,4
+Rani Khedira,67.21000000000001,41.730000000000004,Yorbe Vertessen,1
+Robin Gosens,66.17058823529412,10.958823529411765,Yorbe Vertessen,2

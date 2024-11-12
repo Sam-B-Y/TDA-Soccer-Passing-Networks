@@ -1,0 +1,48 @@
+player_a,x,y,player_b,pass_count
+Adam Hložek,71.47333333333333,18.253333333333334,Arthur Augusto de Matos Soares,11
+Adam Hložek,71.47333333333333,18.253333333333334,Edmond Fayçal Tapsoba,2
+Adam Hložek,71.47333333333333,18.253333333333334,Exequiel Alejandro Palacios,6
+Adam Hložek,71.47333333333333,18.253333333333334,Granit Xhaka,6
+Adam Hložek,71.47333333333333,18.253333333333334,Jonas Hofmann,1
+Adam Hložek,71.47333333333333,18.253333333333334,Lukáš Hrádecký,1
+Adam Hložek,71.47333333333333,18.253333333333334,Patrik Schick,3
+Adam Hložek,71.47333333333333,18.253333333333334,Robert Andrich,1
+Arthur Augusto de Matos Soares,66.5030303030303,10.972727272727273,Edmond Fayçal Tapsoba,18
+Arthur Augusto de Matos Soares,66.5030303030303,10.972727272727273,Exequiel Alejandro Palacios,11
+Arthur Augusto de Matos Soares,66.5030303030303,10.972727272727273,Granit Xhaka,16
+Arthur Augusto de Matos Soares,66.5030303030303,10.972727272727273,Jonas Hofmann,2
+Arthur Augusto de Matos Soares,66.5030303030303,10.972727272727273,Odilon Kossonou,1
+Arthur Augusto de Matos Soares,66.5030303030303,10.972727272727273,Patrik Schick,4
+Arthur Augusto de Matos Soares,66.5030303030303,10.972727272727273,Robert Andrich,8
+Edmond Fayçal Tapsoba,45.243589743589745,24.47179487179487,Exequiel Alejandro Palacios,9
+Edmond Fayçal Tapsoba,45.243589743589745,24.47179487179487,Granit Xhaka,8
+Edmond Fayçal Tapsoba,45.243589743589745,24.47179487179487,Jonas Hofmann,2
+Edmond Fayçal Tapsoba,45.243589743589745,24.47179487179487,Lukáš Hrádecký,4
+Edmond Fayçal Tapsoba,45.243589743589745,24.47179487179487,Nathan Tella,1
+Edmond Fayçal Tapsoba,45.243589743589745,24.47179487179487,Odilon Kossonou,7
+Edmond Fayçal Tapsoba,45.243589743589745,24.47179487179487,Patrik Schick,2
+Edmond Fayçal Tapsoba,45.243589743589745,24.47179487179487,Robert Andrich,17
+Exequiel Alejandro Palacios,55.73125,29.928125,Granit Xhaka,12
+Exequiel Alejandro Palacios,55.73125,29.928125,Jonas Hofmann,6
+Exequiel Alejandro Palacios,55.73125,29.928125,Lukáš Hrádecký,2
+Exequiel Alejandro Palacios,55.73125,29.928125,Nathan Tella,2
+Exequiel Alejandro Palacios,55.73125,29.928125,Odilon Kossonou,7
+Exequiel Alejandro Palacios,55.73125,29.928125,Patrik Schick,1
+Exequiel Alejandro Palacios,55.73125,29.928125,Robert Andrich,11
+Granit Xhaka,61.00882352941177,37.34117647058823,Jonas Hofmann,5
+Granit Xhaka,61.00882352941177,37.34117647058823,Lukáš Hrádecký,1
+Granit Xhaka,61.00882352941177,37.34117647058823,Nathan Tella,6
+Granit Xhaka,61.00882352941177,37.34117647058823,Odilon Kossonou,3
+Granit Xhaka,61.00882352941177,37.34117647058823,Patrik Schick,6
+Granit Xhaka,61.00882352941177,37.34117647058823,Robert Andrich,9
+Jonas Hofmann,75.56818181818181,57.34090909090909,Lukáš Hrádecký,3
+Jonas Hofmann,75.56818181818181,57.34090909090909,Nathan Tella,8
+Jonas Hofmann,75.56818181818181,57.34090909090909,Odilon Kossonou,11
+Jonas Hofmann,75.56818181818181,57.34090909090909,Robert Andrich,5
+Lukáš Hrádecký,14.5125,39.49375,Odilon Kossonou,4
+Lukáš Hrádecký,14.5125,39.49375,Robert Andrich,11
+Nathan Tella,81.41,73.53,Odilon Kossonou,7
+Nathan Tella,81.41,73.53,Patrik Schick,3
+Nathan Tella,81.41,73.53,Robert Andrich,2
+Odilon Kossonou,54.34117647058823,67.76764705882353,Patrik Schick,1
+Odilon Kossonou,54.34117647058823,67.76764705882353,Robert Andrich,27

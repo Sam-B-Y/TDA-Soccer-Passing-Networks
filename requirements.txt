@@ -1,0 +1,3 @@
+mplsoccer==1.4.0
+pandas==2.2.3
+statsbombpy==1.14.0
