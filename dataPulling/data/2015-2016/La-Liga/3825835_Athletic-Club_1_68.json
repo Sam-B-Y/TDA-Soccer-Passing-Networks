@@ -1,0 +1,118 @@
+[
+  {
+    "name": "Ander Iturraspe Derteano",
+    "x": 61.22222222222222,
+    "y": 41.91481481481482,
+    "passes": [
+      { "name": "Borja Viguera Manzanares", "count": 3 },
+      { "name": "Carlos Gurpegi Nausia", "count": 6 },
+      { "name": "Eneko Bóveda Altube", "count": 3 },
+      { "name": "Gorka Iraizoz Moreno", "count": 1 },
+      { "name": "Iker Muniain Goñi", "count": 5 },
+      { "name": "Mikel Balenziaga Oruesagasti", "count": 7 },
+      { "name": "Mikel Rico Moreno", "count": 6 },
+      { "name": "Mikel San José Domínguez", "count": 13 },
+      { "name": "Raúl García Escudero", "count": 5 },
+      { "name": "Íñigo Lekue Martínez", "count": 1 }
+    ]
+  },
+  {
+    "name": "Borja Viguera Manzanares",
+    "x": 80.975,
+    "y": 45.36875,
+    "passes": [
+      { "name": "Eneko Bóveda Altube", "count": 3 },
+      { "name": "Gorka Iraizoz Moreno", "count": 6 },
+      { "name": "Iker Muniain Goñi", "count": 6 },
+      { "name": "Mikel Balenziaga Oruesagasti", "count": 2 },
+      { "name": "Mikel Rico Moreno", "count": 6 },
+      { "name": "Mikel San José Domínguez", "count": 1 },
+      { "name": "Raúl García Escudero", "count": 9 },
+      { "name": "Íñigo Lekue Martínez", "count": 2 }
+    ]
+  },
+  {
+    "name": "Carlos Gurpegi Nausia",
+    "x": 38.84583333333333,
+    "y": 35.74166666666667,
+    "passes": [
+      { "name": "Eneko Bóveda Altube", "count": 6 },
+      { "name": "Gorka Iraizoz Moreno", "count": 4 },
+      { "name": "Iker Muniain Goñi", "count": 2 },
+      { "name": "Mikel Balenziaga Oruesagasti", "count": 8 },
+      { "name": "Mikel Rico Moreno", "count": 4 },
+      { "name": "Mikel San José Domínguez", "count": 4 },
+      { "name": "Raúl García Escudero", "count": 3 }
+    ]
+  },
+  {
+    "name": "Eneko Bóveda Altube",
+    "x": 61.62692307692308,
+    "y": 69.87692307692308,
+    "passes": [
+      { "name": "Gorka Iraizoz Moreno", "count": 3 },
+      { "name": "Iker Muniain Goñi", "count": 3 },
+      { "name": "Mikel Rico Moreno", "count": 6 },
+      { "name": "Mikel San José Domínguez", "count": 12 },
+      { "name": "Raúl García Escudero", "count": 1 },
+      { "name": "Íñigo Lekue Martínez", "count": 10 }
+    ]
+  },
+  {
+    "name": "Gorka Iraizoz Moreno",
+    "x": 14.935714285714285,
+    "y": 41.778571428571425,
+    "passes": [
+      { "name": "Mikel San José Domínguez", "count": 8 },
+      { "name": "Raúl García Escudero", "count": 2 },
+      { "name": "Íñigo Lekue Martínez", "count": 1 }
+    ]
+  },
+  {
+    "name": "Iker Muniain Goñi",
+    "x": 71.68260869565218,
+    "y": 25.708695652173912,
+    "passes": [
+      { "name": "Mikel Balenziaga Oruesagasti", "count": 9 },
+      { "name": "Mikel Rico Moreno", "count": 12 },
+      { "name": "Mikel San José Domínguez", "count": 5 },
+      { "name": "Raúl García Escudero", "count": 8 },
+      { "name": "Íñigo Lekue Martínez", "count": 2 }
+    ]
+  },
+  {
+    "name": "Mikel Balenziaga Oruesagasti",
+    "x": 66.32307692307693,
+    "y": 14.811538461538463,
+    "passes": [
+      { "name": "Mikel Rico Moreno", "count": 13 },
+      { "name": "Mikel San José Domínguez", "count": 3 },
+      { "name": "Raúl García Escudero", "count": 5 }
+    ]
+  },
+  {
+    "name": "Mikel Rico Moreno",
+    "x": 62.41818181818182,
+    "y": 38.43939393939394,
+    "passes": [
+      { "name": "Mikel San José Domínguez", "count": 10 },
+      { "name": "Raúl García Escudero", "count": 6 },
+      { "name": "Íñigo Lekue Martínez", "count": 2 }
+    ]
+  },
+  {
+    "name": "Mikel San José Domínguez",
+    "x": 46.72,
+    "y": 47.61333333333334,
+    "passes": [
+      { "name": "Raúl García Escudero", "count": 2 },
+      { "name": "Íñigo Lekue Martínez", "count": 1 }
+    ]
+  },
+  {
+    "name": "Raúl García Escudero",
+    "x": 63.31764705882353,
+    "y": 44.84705882352941,
+    "passes": [{ "name": "Íñigo Lekue Martínez", "count": 5 }]
+  }
+]
