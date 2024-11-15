@@ -3,7 +3,7 @@ import pandas as pd
 import os
 from mplsoccer import Sbopen
 
-competitionId = 7
+competitionId = 12
 seasonId = 27
 
 matches = sb.matches(competition_id = competitionId, season_id = seasonId)
