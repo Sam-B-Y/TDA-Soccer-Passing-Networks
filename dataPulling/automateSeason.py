@@ -3,7 +3,7 @@ import pandas as pd
 import os
 from mplsoccer import Sbopen
 
-competitionId = 12
+competitionId = 7
 seasonId = 27
 
 matches = sb.matches(competition_id = competitionId, season_id = seasonId)
@@ -20,7 +20,7 @@ competitionName = competition_row['competition_name'].values[0].replace(" ", "-"
 seasonName = competition_row['season_name'].values[0].replace("/", "-")
 
 
-def saveFile(df, location):
+def saveFile(df, posdf, location):
     players = {}
     for _, row in df.iterrows():
         player_a = row['player_a']
@@ -37,6 +37,15 @@ def saveFile(df, location):
             'player_b': player_b,
             'count': row['pass_count']
         })
+
+    for _, row in posdf.iterrows():
+        player = row['player_name']
+        if player not in players:
+            players[player] = {
+                'x': row['x'],
+                'y': row['y'],
+                'passes': []
+            }
 
 
     with open(f'{location}.json', 'w') as f:
@@ -93,7 +102,7 @@ def processTeam(df, teamLineup, teamName, folderName, team1name):
         os.makedirs(folderName)
 
     if firstSubTeam1 >= 45:
-        saveFile(passesBetweenTeam1.drop(columns=['count', 'count_end', 'x_end', 'y_end']), f'{folderName}/{team1name}')
+        saveFile(passesBetweenTeam1.drop(columns=['count', 'count_end', 'x_end', 'y_end']), averagePosTeam1, f'{folderName}/{team1name}')
     else:
         print(f"First sub before 45 minutes for {teamName}, therefore not saving data")
 
