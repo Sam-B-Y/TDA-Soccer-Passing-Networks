@@ -1,1 +1,124 @@
-[{"name": "Antoine Devaux","x": 58.964000000000006,"y": 51.912,"passes": [{"name": "David N"Gog","count": 5},{"name": "Diego Rigonato Rodrigues","count": 7},{"name": "Franck Signorino","count": 4},{"name": "Hamari Traoré","count": 6},{"name": "Jaba Kankava","count": 4},{"name": "Johny Placide","count": 1},{"name": "Mickaël Tacalfred","count": 8},{"name": "Mohamed Fofana","count": 5},{"name": "Nicolas de Roussel de Préville","count": 13},{"name": "Theoson Jordan Siebatcheu","count": 2}]},{"name": "David N"Gog","x": 74.18,"y": 42.873333333333335,"passes": [{"name": "Diego Rigonato Rodrigues","count": 8},{"name": "Franck Signorino","count": 5},{"name": "Hamari Traoré","count": 3},{"name": "Jaba Kankava","count": 3},{"name": "Johny Placide","count": 1},{"name": "Mickaël Tacalfred","count": 2},{"name": "Nicolas de Roussel de Préville","count": 1},{"name": "Theoson Jordan Siebatcheu","count": 2}]},{"name": "Diego Rigonato Rodrigues","x": 65.45263157894736,"y": 23.900000000000002,"passes": [{"name": "Franck Signorino","count": 11},{"name": "Hamari Traoré","count": 1},{"name": "Jaba Kankava","count": 9},{"name": "Mickaël Tacalfred","count": 1},{"name": "Mohamed Fofana","count": 2},{"name": "Nicolas de Roussel de Préville","count": 1},{"name": "Theoson Jordan Siebatcheu","count": 7}]},{"name": "Franck Signorino","x": 47.699999999999996,"y": 10.744827586206897,"passes": [{"name": "Jaba Kankava","count": 7},{"name": "Johny Placide","count": 3},{"name": "Mickaël Tacalfred","count": 5},{"name": "Mohamed Fofana","count": 14},{"name": "Theoson Jordan Siebatcheu","count": 3}]},{"name": "Hamari Traoré","x": 50.71666666666667,"y": 73.18666666666667,"passes": [{"name": "Jaba Kankava","count": 8},{"name": "Johny Placide","count": 2},{"name": "Mickaël Tacalfred","count": 9},{"name": "Mohamed Fofana","count": 1},{"name": "Nicolas de Roussel de Préville","count": 14},{"name": "Theoson Jordan Siebatcheu","count": 6}]},{"name": "Jaba Kankava","x": 52.158620689655166,"y": 42.38620689655173,"passes": [{"name": "Mickaël Tacalfred","count": 7},{"name": "Mohamed Fofana","count": 3},{"name": "Nicolas de Roussel de Préville","count": 6},{"name": "Theoson Jordan Siebatcheu","count": 5}]},{"name": "Johny Placide","x": 11.171428571428573,"y": 41.628571428571426,"passes": [{"name": "Mickaël Tacalfred","count": 2},{"name": "Mohamed Fofana","count": 2}]},{"name": "Mickaël Tacalfred","x": 41.843999999999994,"y": 55.876000000000005,"passes": [{"name": "Mohamed Fofana","count": 12},{"name": "Nicolas de Roussel de Préville","count": 3},{"name": "Theoson Jordan Siebatcheu","count": 1}]},{"name": "Mohamed Fofana","x": 41.50869565217391,"y": 28.743478260869566,"passes": [{"name": "Nicolas de Roussel de Préville","count": 1},{"name": "Theoson Jordan Siebatcheu","count": 2}]},{"name": "Nicolas de Roussel de Préville","x": 61.906666666666666,"y": 60.28,"passes": [{"name": "Theoson Jordan Siebatcheu","count": 1}]},{"name": "Theoson Jordan Siebatcheu","x": 61.708333333333336,"y": 34.68333333333333,"passes": []}]
+[
+  {
+    "name": "Antoine Devaux",
+    "x": 58.964000000000006,
+    "y": 51.912,
+    "passes": [
+      { "name": "David N'Gog", "count": 5 },
+      { "name": "Diego Rigonato Rodrigues", "count": 7 },
+      { "name": "Franck Signorino", "count": 4 },
+      { "name": "Hamari Traoré", "count": 6 },
+      { "name": "Jaba Kankava", "count": 4 },
+      { "name": "Johny Placide", "count": 1 },
+      { "name": "Mickaël Tacalfred", "count": 8 },
+      { "name": "Mohamed Fofana", "count": 5 },
+      { "name": "Nicolas de Roussel de Préville", "count": 13 },
+      { "name": "Theoson Jordan Siebatcheu", "count": 2 }
+    ]
+  },
+  {
+    "name": "David N'Gog",
+    "x": 74.18,
+    "y": 42.873333333333335,
+    "passes": [
+      { "name": "Diego Rigonato Rodrigues", "count": 8 },
+      { "name": "Franck Signorino", "count": 5 },
+      { "name": "Hamari Traoré", "count": 3 },
+      { "name": "Jaba Kankava", "count": 3 },
+      { "name": "Johny Placide", "count": 1 },
+      { "name": "Mickaël Tacalfred", "count": 2 },
+      { "name": "Nicolas de Roussel de Préville", "count": 1 },
+      { "name": "Theoson Jordan Siebatcheu", "count": 2 }
+    ]
+  },
+  {
+    "name": "Diego Rigonato Rodrigues",
+    "x": 65.45263157894736,
+    "y": 23.900000000000002,
+    "passes": [
+      { "name": "Franck Signorino", "count": 11 },
+      { "name": "Hamari Traoré", "count": 1 },
+      { "name": "Jaba Kankava", "count": 9 },
+      { "name": "Mickaël Tacalfred", "count": 1 },
+      { "name": "Mohamed Fofana", "count": 2 },
+      { "name": "Nicolas de Roussel de Préville", "count": 1 },
+      { "name": "Theoson Jordan Siebatcheu", "count": 7 }
+    ]
+  },
+  {
+    "name": "Franck Signorino",
+    "x": 47.699999999999996,
+    "y": 10.744827586206897,
+    "passes": [
+      { "name": "Jaba Kankava", "count": 7 },
+      { "name": "Johny Placide", "count": 3 },
+      { "name": "Mickaël Tacalfred", "count": 5 },
+      { "name": "Mohamed Fofana", "count": 14 },
+      { "name": "Theoson Jordan Siebatcheu", "count": 3 }
+    ]
+  },
+  {
+    "name": "Hamari Traoré",
+    "x": 50.71666666666667,
+    "y": 73.18666666666667,
+    "passes": [
+      { "name": "Jaba Kankava", "count": 8 },
+      { "name": "Johny Placide", "count": 2 },
+      { "name": "Mickaël Tacalfred", "count": 9 },
+      { "name": "Mohamed Fofana", "count": 1 },
+      { "name": "Nicolas de Roussel de Préville", "count": 14 },
+      { "name": "Theoson Jordan Siebatcheu", "count": 6 }
+    ]
+  },
+  {
+    "name": "Jaba Kankava",
+    "x": 52.158620689655166,
+    "y": 42.38620689655173,
+    "passes": [
+      { "name": "Mickaël Tacalfred", "count": 7 },
+      { "name": "Mohamed Fofana", "count": 3 },
+      { "name": "Nicolas de Roussel de Préville", "count": 6 },
+      { "name": "Theoson Jordan Siebatcheu", "count": 5 }
+    ]
+  },
+  {
+    "name": "Johny Placide",
+    "x": 11.171428571428573,
+    "y": 41.628571428571426,
+    "passes": [
+      { "name": "Mickaël Tacalfred", "count": 2 },
+      { "name": "Mohamed Fofana", "count": 2 }
+    ]
+  },
+  {
+    "name": "Mickaël Tacalfred",
+    "x": 41.843999999999994,
+    "y": 55.876000000000005,
+    "passes": [
+      { "name": "Mohamed Fofana", "count": 12 },
+      { "name": "Nicolas de Roussel de Préville", "count": 3 },
+      { "name": "Theoson Jordan Siebatcheu", "count": 1 }
+    ]
+  },
+  {
+    "name": "Mohamed Fofana",
+    "x": 41.50869565217391,
+    "y": 28.743478260869566,
+    "passes": [
+      { "name": "Nicolas de Roussel de Préville", "count": 1 },
+      { "name": "Theoson Jordan Siebatcheu", "count": 2 }
+    ]
+  },
+  {
+    "name": "Nicolas de Roussel de Préville",
+    "x": 61.906666666666666,
+    "y": 60.28,
+    "passes": [{ "name": "Theoson Jordan Siebatcheu", "count": 1 }]
+  },
+  {
+    "name": "Theoson Jordan Siebatcheu",
+    "x": 61.708333333333336,
+    "y": 34.68333333333333,
+    "passes": []
+  }
+]

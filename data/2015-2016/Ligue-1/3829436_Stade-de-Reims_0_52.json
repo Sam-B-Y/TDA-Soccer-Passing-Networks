@@ -1,1 +1,123 @@
-[{"name": "Anthony Weber","x": 42.11176470588235,"y": 27.288235294117644,"passes": [{"name": "Antoine Devaux","count": 3},{"name": "Aïssa Mandi","count": 17},{"name": "David N"Gog","count": 4},{"name": "Franck Signorino","count": 11},{"name": "Frédéric Bulot","count": 2},{"name": "Hamari Traoré","count": 3},{"name": "Jaba Kankava","count": 8},{"name": "Kossi Agassa","count": 5},{"name": "Nicolas de Roussel de Préville","count": 3},{"name": "Prince Oniangué","count": 9}]},{"name": "Antoine Devaux","x": 51.00588235294118,"y": 39.63529411764706,"passes": [{"name": "Aïssa Mandi","count": 3},{"name": "David N"Gog","count": 2},{"name": "Franck Signorino","count": 5},{"name": "Frédéric Bulot","count": 3},{"name": "Hamari Traoré","count": 9},{"name": "Jaba Kankava","count": 5},{"name": "Kossi Agassa","count": 1},{"name": "Nicolas de Roussel de Préville","count": 3},{"name": "Prince Oniangué","count": 3}]},{"name": "Aïssa Mandi","x": 45.275862068965516,"y": 54.00344827586206,"passes": [{"name": "Franck Signorino","count": 3},{"name": "Frédéric Bulot","count": 2},{"name": "Hamari Traoré","count": 14},{"name": "Jaba Kankava","count": 2},{"name": "Kossi Agassa","count": 6},{"name": "Nicolas de Roussel de Préville","count": 3},{"name": "Prince Oniangué","count": 4}]},{"name": "David N"Gog","x": 73.56,"y": 45.92666666666666,"passes": [{"name": "Franck Signorino","count": 5},{"name": "Frédéric Bulot","count": 7},{"name": "Hamari Traoré","count": 5},{"name": "Jaba Kankava","count": 2},{"name": "Kossi Agassa","count": 4},{"name": "Nicolas de Roussel de Préville","count": 6},{"name": "Prince Oniangué","count": 6}]},{"name": "Franck Signorino","x": 63.4,"y": 7.01111111111111,"passes": [{"name": "Frédéric Bulot","count": 3},{"name": "Jaba Kankava","count": 7},{"name": "Nicolas de Roussel de Préville","count": 6},{"name": "Prince Oniangué","count": 11}]},{"name": "Frédéric Bulot","x": 70.5,"y": 50.17333333333333,"passes": [{"name": "Hamari Traoré","count": 10},{"name": "Jaba Kankava","count": 2},{"name": "Nicolas de Roussel de Préville","count": 3},{"name": "Prince Oniangué","count": 7}]},{"name": "Hamari Traoré","x": 53.217241379310344,"y": 73.47586206896553,"passes": [{"name": "Jaba Kankava","count": 3},{"name": "Kossi Agassa","count": 2},{"name": "Nicolas de Roussel de Préville","count": 1},{"name": "Prince Oniangué","count": 4}]},{"name": "Jaba Kankava","x": 51.31739130434782,"y": 35.4,"passes": [{"name": "Nicolas de Roussel de Préville","count": 6},{"name": "Prince Oniangué","count": 5}]},{"name": "Kossi Agassa","x": 12.75625,"y": 43.9625,"passes": [{"name": "Nicolas de Roussel de Préville","count": 2}]},{"name": "Nicolas de Roussel de Préville","x": 70.14999999999999,"y": 43.375,"passes": [{"name": "Prince Oniangué","count": 2}]},{"name": "Prince Oniangué","x": 51.596000000000004,"y": 37.2,"passes": []}]
+[
+  {
+    "name": "Anthony Weber",
+    "x": 42.11176470588235,
+    "y": 27.288235294117644,
+    "passes": [
+      { "name": "Antoine Devaux", "count": 3 },
+      { "name": "Aïssa Mandi", "count": 17 },
+      { "name": "David N'Gog", "count": 4 },
+      { "name": "Franck Signorino", "count": 11 },
+      { "name": "Frédéric Bulot", "count": 2 },
+      { "name": "Hamari Traoré", "count": 3 },
+      { "name": "Jaba Kankava", "count": 8 },
+      { "name": "Kossi Agassa", "count": 5 },
+      { "name": "Nicolas de Roussel de Préville", "count": 3 },
+      { "name": "Prince Oniangué", "count": 9 }
+    ]
+  },
+  {
+    "name": "Antoine Devaux",
+    "x": 51.00588235294118,
+    "y": 39.63529411764706,
+    "passes": [
+      { "name": "Aïssa Mandi", "count": 3 },
+      { "name": "David N'Gog", "count": 2 },
+      { "name": "Franck Signorino", "count": 5 },
+      { "name": "Frédéric Bulot", "count": 3 },
+      { "name": "Hamari Traoré", "count": 9 },
+      { "name": "Jaba Kankava", "count": 5 },
+      { "name": "Kossi Agassa", "count": 1 },
+      { "name": "Nicolas de Roussel de Préville", "count": 3 },
+      { "name": "Prince Oniangué", "count": 3 }
+    ]
+  },
+  {
+    "name": "Aïssa Mandi",
+    "x": 45.275862068965516,
+    "y": 54.00344827586206,
+    "passes": [
+      { "name": "Franck Signorino", "count": 3 },
+      { "name": "Frédéric Bulot", "count": 2 },
+      { "name": "Hamari Traoré", "count": 14 },
+      { "name": "Jaba Kankava", "count": 2 },
+      { "name": "Kossi Agassa", "count": 6 },
+      { "name": "Nicolas de Roussel de Préville", "count": 3 },
+      { "name": "Prince Oniangué", "count": 4 }
+    ]
+  },
+  {
+    "name": "David N'Gog",
+    "x": 73.56,
+    "y": 45.92666666666666,
+    "passes": [
+      { "name": "Franck Signorino", "count": 5 },
+      { "name": "Frédéric Bulot", "count": 7 },
+      { "name": "Hamari Traoré", "count": 5 },
+      { "name": "Jaba Kankava", "count": 2 },
+      { "name": "Kossi Agassa", "count": 4 },
+      { "name": "Nicolas de Roussel de Préville", "count": 6 },
+      { "name": "Prince Oniangué", "count": 6 }
+    ]
+  },
+  {
+    "name": "Franck Signorino",
+    "x": 63.4,
+    "y": 7.01111111111111,
+    "passes": [
+      { "name": "Frédéric Bulot", "count": 3 },
+      { "name": "Jaba Kankava", "count": 7 },
+      { "name": "Nicolas de Roussel de Préville", "count": 6 },
+      { "name": "Prince Oniangué", "count": 11 }
+    ]
+  },
+  {
+    "name": "Frédéric Bulot",
+    "x": 70.5,
+    "y": 50.17333333333333,
+    "passes": [
+      { "name": "Hamari Traoré", "count": 10 },
+      { "name": "Jaba Kankava", "count": 2 },
+      { "name": "Nicolas de Roussel de Préville", "count": 3 },
+      { "name": "Prince Oniangué", "count": 7 }
+    ]
+  },
+  {
+    "name": "Hamari Traoré",
+    "x": 53.217241379310344,
+    "y": 73.47586206896553,
+    "passes": [
+      { "name": "Jaba Kankava", "count": 3 },
+      { "name": "Kossi Agassa", "count": 2 },
+      { "name": "Nicolas de Roussel de Préville", "count": 1 },
+      { "name": "Prince Oniangué", "count": 4 }
+    ]
+  },
+  {
+    "name": "Jaba Kankava",
+    "x": 51.31739130434782,
+    "y": 35.4,
+    "passes": [
+      { "name": "Nicolas de Roussel de Préville", "count": 6 },
+      { "name": "Prince Oniangué", "count": 5 }
+    ]
+  },
+  {
+    "name": "Kossi Agassa",
+    "x": 12.75625,
+    "y": 43.9625,
+    "passes": [{ "name": "Nicolas de Roussel de Préville", "count": 2 }]
+  },
+  {
+    "name": "Nicolas de Roussel de Préville",
+    "x": 70.14999999999999,
+    "y": 43.375,
+    "passes": [{ "name": "Prince Oniangué", "count": 2 }]
+  },
+  {
+    "name": "Prince Oniangué",
+    "x": 51.596000000000004,
+    "y": 37.2,
+    "passes": []
+  }
+]

@@ -1,1 +1,120 @@
-[{"name": "Alexi Peuget","x": 62.353846153846156,"y": 41.80769230769231,"passes": [{"name": "Antoine Devaux","count": 2},{"name": "Atila Turan","count": 2},{"name": "Aïssa Mandi","count": 4},{"name": "David N"Gog","count": 1},{"name": "Frédéric Bulot","count": 1},{"name": "Hamari Traoré","count": 4},{"name": "Jaba Kankava","count": 6},{"name": "Johny Placide","count": 1},{"name": "Mohamed Fofana","count": 3}]},{"name": "Antoine Devaux","x": 74.03076923076922,"y": 44.330769230769235,"passes": [{"name": "Atila Turan","count": 3},{"name": "Aïssa Mandi","count": 1},{"name": "David N"Gog","count": 1},{"name": "Diego Rigonato Rodrigues","count": 2},{"name": "Frédéric Bulot","count": 6},{"name": "Hamari Traoré","count": 12},{"name": "Jaba Kankava","count": 4}]},{"name": "Atila Turan","x": 49.758620689655174,"y": 9.53793103448276,"passes": [{"name": "Aïssa Mandi","count": 2},{"name": "David N"Gog","count": 6},{"name": "Diego Rigonato Rodrigues","count": 20},{"name": "Frédéric Bulot","count": 1},{"name": "Hamari Traoré","count": 1},{"name": "Jaba Kankava","count": 5},{"name": "Johny Placide","count": 2},{"name": "Mohamed Fofana","count": 11}]},{"name": "Aïssa Mandi","x": 43.150000000000006,"y": 52.82222222222222,"passes": [{"name": "David N"Gog","count": 2},{"name": "Frédéric Bulot","count": 4},{"name": "Hamari Traoré","count": 5},{"name": "Jaba Kankava","count": 2},{"name": "Johny Placide","count": 3},{"name": "Mohamed Fofana","count": 8}]},{"name": "David N"Gog","x": 62.385714285714286,"y": 33.128571428571426,"passes": [{"name": "Diego Rigonato Rodrigues","count": 6},{"name": "Frédéric Bulot","count": 2},{"name": "Hamari Traoré","count": 4},{"name": "Jaba Kankava","count": 3},{"name": "Johny Placide","count": 1}]},{"name": "Diego Rigonato Rodrigues","x": 67.28666666666666,"y": 13.193333333333333,"passes": [{"name": "Hamari Traoré","count": 1},{"name": "Jaba Kankava","count": 4},{"name": "Johny Placide","count": 2},{"name": "Mohamed Fofana","count": 2}]},{"name": "Frédéric Bulot","x": 65.8076923076923,"y": 67.46923076923078,"passes": [{"name": "Hamari Traoré","count": 9},{"name": "Jaba Kankava","count": 2}]},{"name": "Hamari Traoré","x": 64.34761904761905,"y": 64.91904761904762,"passes": [{"name": "Jaba Kankava","count": 4},{"name": "Johny Placide","count": 1},{"name": "Mohamed Fofana","count": 1}]},{"name": "Jaba Kankava","x": 59.90526315789474,"y": 37.98947368421052,"passes": [{"name": "Mohamed Fofana","count": 3}]},{"name": "Johny Placide","x": 9.72857142857143,"y": 40.871428571428574,"passes": []},{"name": "Mohamed Fofana","x": 44.64,"y": 22.346666666666668,"passes": []}]
+[
+  {
+    "name": "Alexi Peuget",
+    "x": 62.353846153846156,
+    "y": 41.80769230769231,
+    "passes": [
+      { "name": "Antoine Devaux", "count": 2 },
+      { "name": "Atila Turan", "count": 2 },
+      { "name": "Aïssa Mandi", "count": 4 },
+      { "name": "David N'Gog", "count": 1 },
+      { "name": "Frédéric Bulot", "count": 1 },
+      { "name": "Hamari Traoré", "count": 4 },
+      { "name": "Jaba Kankava", "count": 6 },
+      { "name": "Johny Placide", "count": 1 },
+      { "name": "Mohamed Fofana", "count": 3 }
+    ]
+  },
+  {
+    "name": "Antoine Devaux",
+    "x": 74.03076923076922,
+    "y": 44.330769230769235,
+    "passes": [
+      { "name": "Atila Turan", "count": 3 },
+      { "name": "Aïssa Mandi", "count": 1 },
+      { "name": "David N'Gog", "count": 1 },
+      { "name": "Diego Rigonato Rodrigues", "count": 2 },
+      { "name": "Frédéric Bulot", "count": 6 },
+      { "name": "Hamari Traoré", "count": 12 },
+      { "name": "Jaba Kankava", "count": 4 }
+    ]
+  },
+  {
+    "name": "Atila Turan",
+    "x": 49.758620689655174,
+    "y": 9.53793103448276,
+    "passes": [
+      { "name": "Aïssa Mandi", "count": 2 },
+      { "name": "David N'Gog", "count": 6 },
+      { "name": "Diego Rigonato Rodrigues", "count": 20 },
+      { "name": "Frédéric Bulot", "count": 1 },
+      { "name": "Hamari Traoré", "count": 1 },
+      { "name": "Jaba Kankava", "count": 5 },
+      { "name": "Johny Placide", "count": 2 },
+      { "name": "Mohamed Fofana", "count": 11 }
+    ]
+  },
+  {
+    "name": "Aïssa Mandi",
+    "x": 43.150000000000006,
+    "y": 52.82222222222222,
+    "passes": [
+      { "name": "David N'Gog", "count": 2 },
+      { "name": "Frédéric Bulot", "count": 4 },
+      { "name": "Hamari Traoré", "count": 5 },
+      { "name": "Jaba Kankava", "count": 2 },
+      { "name": "Johny Placide", "count": 3 },
+      { "name": "Mohamed Fofana", "count": 8 }
+    ]
+  },
+  {
+    "name": "David N'Gog",
+    "x": 62.385714285714286,
+    "y": 33.128571428571426,
+    "passes": [
+      { "name": "Diego Rigonato Rodrigues", "count": 6 },
+      { "name": "Frédéric Bulot", "count": 2 },
+      { "name": "Hamari Traoré", "count": 4 },
+      { "name": "Jaba Kankava", "count": 3 },
+      { "name": "Johny Placide", "count": 1 }
+    ]
+  },
+  {
+    "name": "Diego Rigonato Rodrigues",
+    "x": 67.28666666666666,
+    "y": 13.193333333333333,
+    "passes": [
+      { "name": "Hamari Traoré", "count": 1 },
+      { "name": "Jaba Kankava", "count": 4 },
+      { "name": "Johny Placide", "count": 2 },
+      { "name": "Mohamed Fofana", "count": 2 }
+    ]
+  },
+  {
+    "name": "Frédéric Bulot",
+    "x": 65.8076923076923,
+    "y": 67.46923076923078,
+    "passes": [
+      { "name": "Hamari Traoré", "count": 9 },
+      { "name": "Jaba Kankava", "count": 2 }
+    ]
+  },
+  {
+    "name": "Hamari Traoré",
+    "x": 64.34761904761905,
+    "y": 64.91904761904762,
+    "passes": [
+      { "name": "Jaba Kankava", "count": 4 },
+      { "name": "Johny Placide", "count": 1 },
+      { "name": "Mohamed Fofana", "count": 1 }
+    ]
+  },
+  {
+    "name": "Jaba Kankava",
+    "x": 59.90526315789474,
+    "y": 37.98947368421052,
+    "passes": [{ "name": "Mohamed Fofana", "count": 3 }]
+  },
+  {
+    "name": "Johny Placide",
+    "x": 9.72857142857143,
+    "y": 40.871428571428574,
+    "passes": []
+  },
+  {
+    "name": "Mohamed Fofana",
+    "x": 44.64,
+    "y": 22.346666666666668,
+    "passes": []
+  }
+]
