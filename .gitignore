@@ -2,3 +2,10 @@
 venv310/
 .python-version
 .DS_Store
+
+paper.aux
+paper.bcf
+paper.out
+paper.run.xml
+paper.synctex.gz
+paper.log
