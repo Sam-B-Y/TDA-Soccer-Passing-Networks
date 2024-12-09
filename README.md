@@ -101,13 +101,13 @@ We calculated the average and standard deviation of the life lengths for both $H
 
 ![Plotting Average Life Length of H_0 and H_1 against Goals per 90 for Serie A](https://github.com/Sam-B-Y/TDA-Soccer-Passing-Networks/blob/main/images/avg_h0_vs_gp90_serie_A.png)
 
-_Figure 3: Plotting Average Life Length of $H_0$ and $H_1$ against Goals per 90 for Serie A_
+_Figure 3: Plotting Average Life Length of H_0 and H_1 against Goals per 90 for Serie A_
 
 The standard deviation of the life lengths for $H_0$ and $H_1$ homology groups from the persistence diagrams was also plotted for each team, illustrating how fluctuations in these persistence statistics correspond to scoring outcomes.
 
 ![Plotting Standard Deviation of Life Lengths of H_0 and H_1 against Goals per 90 for Serie A](https://github.com/Sam-B-Y/TDA-Soccer-Passing-Networks/blob/main/images/std_h0_vs_gp90_serie_A.png)
 
-_Figure 4: Plotting Standard Deviation of Life Lengths of $H_0$ and $H_1$ against Goals per 90 for Serie A_
+_Figure 4: Plotting Standard Deviation of Life Lengths of H_0 and H_1 against Goals per 90 for Serie A_
 
 The correlations between these four persistence statistics and the target variable, Goals per 90, were then calculated.
 
