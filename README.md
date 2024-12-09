@@ -30,49 +30,49 @@ To quantify the structure of passing networks, we construct a **persistence diag
 
 Formally, let $ G = (V, E, w) $ be the weighted graph representing the passing network, where $ V $ is the set of players, $ E \subseteq V \times V $ is the set of edges, and $ w: E \to \mathbb{R} $ assigns each edge a weight based on the frequency of passes between the players. The edge weight $ w(e) $ between players $ i $ and $ j $ is calculated using the formula:
 
-$ $
+$$
 w(e*{ij}) =
 \begin{cases}
 1 - \dfrac{\text{count}*{ij} - \min(\text{count})}{\max(\text{count}) - \min(\text{count})} & \text{if } \text{count}_{ij} \neq 0 \\
 \infty & \text{if } \text{count}_{ij} = 0
 \end{cases}
-$ $
+$$
 
 where $ \text{count}\_{ij} $ is the number of passes between players $ i $ and $ j $ , and $ \min(\text{count}) $ and $ \max(\text{count}) $ are the minimum and maximum pass counts across all pairs of players in the team for that match, respectively. This formula inverts the pass frequency, meaning that higher passing frequencies (stronger connections) result in lower edge weights, which helps prioritize the most frequent connections in the early stages of filtration. Furthermore, two players who have never passed the ball will not have an edge between them, as the weight of that edge is set to infinity, meaning it never appears.
 
 We define a filtration parameter $ \epsilon \in \mathbb{R} $ . For each $ \epsilon $ , consider the subgraph
 
-$ $
+$$
 G*\epsilon = (V, E*\epsilon), \quad \text{where } E\_\epsilon = \{ e \in E \mid w(e) \leq \epsilon \}.
-$ $
+$$
 
 To form a simplicial complex from a graph, we utilize the **Vietoris-Rips complex** construction. The Vietoris-Rips complex includes a simplex for any finite set of vertices where the pairwise distances (edge weights) are all below the threshold $ \epsilon $ . For each $ \epsilon $ , we construct the Vietoris-Rips complex $ \text{VR}\_\epsilon $ defined as:
 
-$ $
+$$
 \text{VR}\_\epsilon = \{ \sigma \subseteq V \mid \forall i, j \in \sigma, \ e*{ij} \in E \Rightarrow w(e*{ij}) \leq \epsilon \}.
-$ $
+$$
 
 If an edge $ e*{ij} $ is not present in $ E $ (i.e., $ w(e*{ij}) = \infty $ ), then any simplex containing both $ i $ and $ j $ will not be included in $ \text{VR}\_\epsilon $ for any finite $ \epsilon $ .
 
 As $ \epsilon $ increases, we obtain a nested sequence of simplicial complexes:
 
-$ $
+$$
 \text{VR}_{\epsilon_1} \subseteq \text{VR}_{\epsilon*2} \subseteq \cdots \subseteq \text{VR}*{\epsilon_m}.
-$ $
+$$
 
 From each complex $ \text{VR}_{\epsilon_i} $ , we compute the homology groups $ H_k(\text{VR}_{\epsilon_i}; \mathbb{F}) $ over a field $ \mathbb{F} $ (commonly $ \mathbb{F}=\mathbb{Z}\_2 $ ). The $ k $ -th homology group is given by:
 
-$ $
+$$
 H*k(\text{VR}*{\epsilon*i}; \mathbb{F}) = \frac{\ker(\partial_k)}{\mathrm{im}(\partial*{k+1})},
-$ $
+$$
 
 where $ \partial*k : C_k(\text{VR}*{\epsilon*i}) \to C*{k-1}(\text{VR}\_{\epsilon_i}) $ is the boundary map on the $ k $ -th chain group. These homology groups detect topological features of dimension $ k $ : connected components ($ k=0 $ ), loops ($ k=1 $ ), and higher-dimensional voids ($ k \geq 2 $ ).
 
 Persistent homology tracks these homology groups across the filtration. A topological feature (such as a loop) that is born at scale $ \epsilon_b $ and dies at scale $ \epsilon_d $ is represented as a point $ (\epsilon_b, \epsilon_d) $ in the persistence diagram:
 
-$ $
+$$
 Dg_k = \{(\epsilon_b, \epsilon_d) \mid \text{feature in } H_k(\text{VR}\*{\epsilon}) \text{ for } \epsilon \in [\epsilon_b,\epsilon_d)\}.
-$ $
+$$
 
 From this analysis, we calculate **persistence statistics**, specifically the average and standard deviation of the life lengths of features in $ H_0 $ and $ H_1 $ , which quantify the persistence of connected components and loops in the network:
 
