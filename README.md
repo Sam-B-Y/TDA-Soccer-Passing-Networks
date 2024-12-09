@@ -18,7 +18,7 @@ The construction of these networks starts with raw match data, which we pulled f
 
 Players are represented as nodes, and the edges between nodes are normalized by dividing the frequency of passes exchanged between players during a match by the maximum number of passes in that match. However, unlike traditional passing networks where stronger connections are associated with higher weights, an inverted weighting scheme is adopted: the more frequent the passes between two players, the lower the weight of the edge connecting their nodes.
 
-![Example Passing Network Graph for Bayer Leverkusen](images/leverkusen.png)
+![Example Passing Network Graph for Bayer Leverkusen](https://github.com/Sam-B-Y/TDA-Soccer-Passing-Networks/blob/main/images/leverkusen.png)
 
 _Figure 1: Example Passing Network Graph for Bayer Leverkusen_
 
@@ -28,94 +28,94 @@ Filtration examines the evolution of a network's topology as a threshold paramet
 
 To quantify the structure of passing networks, we construct a **persistence diagram**, which encodes the birth and death of topological features as a filtration parameter varies. In our setting, the nodes represent players, and edges represent (inverted) pass frequencies. By gradually "thickening" the network — starting from edges that represent the strongest (most frequent) passing connections, as these are closer to 0 in the inverted diagram, and progressively including weaker ones — we obtain a sequence of nested simplicial complexes known as a **filtration**. Tracking the homology groups of these complexes as the threshold changes reveals when particular topological features appear and vanish [7].
 
-Formally, let $G = (V, E, w) $ be the weighted graph representing the passing network, where $V $ is the set of players, $E \subseteq V \times V $ is the set of edges, and $w: E \to \mathbb{R} $ assigns each edge a weight based on the frequency of passes between the players. The edge weight $w(e) $ between players $i $ and $j $ is calculated using the formula:
+Formally, let $G = (V, E, w)$ be the weighted graph representing the passing network, where $V$ is the set of players, $E \subseteq V \times V$ is the set of edges, and $w: E \to \mathbb{R}$ assigns each edge a weight based on the frequency of passes between the players. The edge weight $w(e)$ between players $i$ and $j$ is calculated using the formula:
 
-$$
+```math
 w(e_{ij}) =
 \begin{cases}
 1 - \dfrac{\text{count}_{ij} - \min(\text{count})}{\max(\text{count}) - \min(\text{count})} & \text{if } \text{count}_{ij} \neq 0 \\
 \infty & \text{if } \text{count}_{ij} = 0
 \end{cases}
-$$
+```
 
-where $\text{count}\_{ij} $ is the number of passes between players $i $ and $j $, and $\min(\text{count}) $ and $\max(\text{count}) $ are the minimum and maximum pass counts across all pairs of players in the team for that match, respectively. This formula inverts the pass frequency, meaning that higher passing frequencies (stronger connections) result in lower edge weights, which helps prioritize the most frequent connections in the early stages of filtration. Furthermore, two players who have never passed the ball will not have an edge between them, as the weight of that edge is set to infinity, meaning it never appears.
+where $\text{count}\_{ij}$ is the number of passes between players $i$ and $j$, and $\min(\text{count})$ and $\max(\text{count})$ are the minimum and maximum pass counts across all pairs of players in the team for that match, respectively. This formula inverts the pass frequency, meaning that higher passing frequencies (stronger connections) result in lower edge weights, which helps prioritize the most frequent connections in the early stages of filtration. Furthermore, two players who have never passed the ball will not have an edge between them, as the weight of that edge is set to infinity, meaning it never appears.
 
-We define a filtration parameter $\epsilon \in \mathbb{R} $. For each $\epsilon $, consider the subgraph
+We define a filtration parameter $\epsilon \in \mathbb{R}$. For each $\epsilon$, consider the subgraph
 
-$$
+```math
 G*\epsilon = (V, E*\epsilon), \quad \text{where } E\_\epsilon = \{ e \in E \mid w(e) \leq \epsilon \}.
-$$
+```
 
-To form a simplicial complex from a graph, we utilize the **Vietoris-Rips complex** construction. The Vietoris-Rips complex includes a simplex for any finite set of vertices where the pairwise distances (edge weights) are all below the threshold $\epsilon $. For each $\epsilon $, we construct the Vietoris-Rips complex $\text{VR}\_\epsilon $ defined as:
+To form a simplicial complex from a graph, we utilize the **Vietoris-Rips complex** construction. The Vietoris-Rips complex includes a simplex for any finite set of vertices where the pairwise distances (edge weights) are all below the threshold $\epsilon$. For each $\epsilon$, we construct the Vietoris-Rips complex $\text{VR}\_\epsilon$ defined as:
 
-$$
+```math
 \text{VR}_\epsilon = \{ \sigma \subseteq V \mid \forall i, j \in \sigma, \ e*{ij} \in E \Rightarrow w(e*{ij}) \leq \epsilon \}.
-$$
+```
 
-If an edge $e*{ij} $ is not present in $E $ (i.e., $w(e*{ij}) = \infty $), then any simplex containing both $i $ and $j $ will not be included in $\text{VR}\_\epsilon $ for any finite $\epsilon $.
+If an edge $e*{ij}$ is not present in $E$ (i.e., $w(e*{ij}) = \infty$), then any simplex containing both $i$ and $j$ will not be included in $\text{VR}\_\epsilon$ for any finite $\epsilon$.
 
-As $\epsilon $ increases, we obtain a nested sequence of simplicial complexes:
+As $\epsilon$ increases, we obtain a nested sequence of simplicial complexes:
 
-$$
+```math
 \text{VR}_{\epsilon_1} \subseteq \text{VR}_{\epsilon*2} \subseteq \cdots \subseteq \text{VR}*{\epsilon_m}.
-$$
+```
 
-From each complex $\text{VR}_{\epsilon_i} $, we compute the homology groups $H_k(\text{VR}_{\epsilon_i}; \mathbb{F}) $ over a field $\mathbb{F} $ (commonly $\mathbb{F}=\mathbb{Z}\_2 $). The $k $-th homology group is given by:
+From each complex $\text{VR}_{\epsilon_i}$, we compute the homology groups $H_k(\text{VR}_{\epsilon_i}; \mathbb{F})$ over a field $\mathbb{F}$ (commonly $\mathbb{F}=\mathbb{Z}\_2$). The $k$-th homology group is given by:
 
-$$
+```math
 H_k(\text{VR}_{\epsilon_i}; \mathbb{F}) = \frac{\ker(\partial_k)}{\mathrm{im}(\partial_{k+1})},
-$$
+```
 
-where $\partial_k : C_k(\text{VR}_{\epsilon_i}) \to C_{k-1}(\text{VR}_{\epsilon_i}) $ is the boundary map on the $k $-th chain group. These homology groups detect topological features of dimension $k $: connected components ($k=0 $), loops ($k=1 $), and higher-dimensional voids ($k \geq 2 $).
+where $\partial_k : C_k(\text{VR}_{\epsilon_i}) \to C_{k-1}(\text{VR}_{\epsilon_i})$ is the boundary map on the $k$-th chain group. These homology groups detect topological features of dimension $k$: connected components ($k=0$), loops ($k=1$), and higher-dimensional voids ($k\geq 2$).
 
-Persistent homology tracks these homology groups across the filtration. A topological feature (such as a loop) that is born at scale $ \epsilon_b $ and dies at scale $\epsilon_d $ is represented as a point $(\epsilon_b, \epsilon_d) $ in the persistence diagram:
+Persistent homology tracks these homology groups across the filtration. A topological feature (such as a loop) that is born at scale $\epsilon_b$ and dies at scale $\epsilon_d$ is represented as a point $(\epsilon_b, \epsilon_d)$ in the persistence diagram:
 
 $$
 Dg_k = \{(\epsilon_b, \epsilon_d) \mid \text{feature in } H_k(\text{VR}*{\epsilon}) \text{ for } \epsilon \in [\epsilon_b,\epsilon_d)\}.
 $$
 
-From this analysis, we calculate **persistence statistics**, specifically the average and standard deviation of the life lengths of features in $H_0 $ and $H_1 $, which quantify the persistence of connected components and loops in the network:
+From this analysis, we calculate **persistence statistics**, specifically the average and standard deviation of the life lengths of features in $H_0$ and $H_1$, which quantify the persistence of connected components and loops in the network:
 
 - **Average Life Length of $H_0 $:** Represents the average duration that connected components persist throughout the filtration. A higher average indicates that components merge more slowly, suggesting a more isolated team structure, with different players forming "triangles".
-- **Average Life Length of $H_1 $:** Corresponds to the average duration of loops or cycles in the network. Longer-lived loops can signify more stable subgroups within the team.
+- **Average Life Length of $H_1$:** Corresponds to the average duration of loops or cycles in the network. Longer-lived loops can signify more stable subgroups within the team.
 - **Standard Deviation of Life Lengths in $H_0 $:** Measures the variability in the persistence of connected components. High variability may indicate inconsistent team connectivity.
-- **Standard Deviation of Life Lengths in $H_1 $:** Measures the variability in the persistence of loops. High variability can suggest fluctuating team strategies or cohesion.
+- **Standard Deviation of Life Lengths in $H_1$:** Measures the variability in the persistence of loops. High variability can suggest fluctuating team strategies or cohesion.
 
 In the context of soccer strategy, we interpret the following correlations between persistence statistics and the nature of passing networks:
 
-- A higher average life length of $H_0 $ suggests that connected components take longer to merge, indicating a more fragmented team structure.
-- A higher average life length of $H_1 $ implies that loops persist longer, which may correspond to stable passing subgroups within the team.
-- Greater variability in the life lengths of $H_0 $ and $H_1 $ can indicate inconsistent team connectivity and strategy execution, or an evolving style of play during the season.
+- A higher average life length of $H_0$ suggests that connected components take longer to merge, indicating a more fragmented team structure.
+- A higher average life length of $H_1$ implies that loops persist longer, which may correspond to stable passing subgroups within the team.
+- Greater variability in the life lengths of $H_0$ and $H_1$ can indicate inconsistent team connectivity and strategy execution, or an evolving style of play during the season.
 
-![Example Persistence Diagram for a Team in a Single Game](images/birthdeath.png)
+![Example Persistence Diagram for a Team in a Single Game](https://github.com/Sam-B-Y/TDA-Soccer-Passing-Networks/blob/main/images/birthdeath.png)
 
 _Figure 2: Example Persistence Diagram for a Team in a Single Game_
 
-We can note that some of these points have high multiplicity, as each player is "birthed" at 0, and sometimes "dies" at the same time with the simultaneous apparition of edges. Accounting for the multiplicity, this diagram has 10 $H_0 $ points, which is what we expect from a team with 11 players (as there is one $H_0 $ component that never dies).
+We can note that some of these points have high multiplicity, as each player is "birthed" at 0, and sometimes "dies" at the same time with the simultaneous apparition of edges. Accounting for the multiplicity, this diagram has 10 $H_0$ points, which is what we expect from a team with 11 players (as there is one $H_0$ component that never dies).
 
 ## TDA Methods
 
 Using these persistence statistics, we aimed to draw conclusions about the homology patterns described above and the number of goals scored.
 
-We calculated the average and standard deviation of the life lengths for both $H_0 $ and $H_1 $ from the persistence diagrams for all matches played by the same team in the 2015/2016 Serie A season. These statistics were then used to create scatter plots, where each point represents the average or standard deviation values for one team within a league.
+We calculated the average and standard deviation of the life lengths for both $H_0$ and $H_1$ from the persistence diagrams for all matches played by the same team in the 2015/2016 Serie A season. These statistics were then used to create scatter plots, where each point represents the average or standard deviation values for one team within a league.
 
-![Plotting Average Life Length of $H_0 $ and $H_1 $ against Goals per 90 for Serie A](images/avg_H0_vs_gp90_serie_A.png)
+![Plotting Average Life Length of $H_0$ and $H_1$ against Goals per 90 for Serie A](https://github.com/Sam-B-Y/TDA-Soccer-Passing-Networks/blob/main/images/avg_h0_vs_gp90_serie_A.png)
 
-_Figure 3: Plotting Average Life Length of $H_0 $ and $H_1 $ against Goals per 90 for Serie A_
+_Figure 3: Plotting Average Life Length of $H_0$ and $H_1$ against Goals per 90 for Serie A_
 
-The standard deviation of the life lengths for $H_0 $ and $H_1 $ homology groups from the persistence diagrams was also plotted for each team, illustrating how fluctuations in these persistence statistics correspond to scoring outcomes.
+The standard deviation of the life lengths for $H_0$ and $H_1$ homology groups from the persistence diagrams was also plotted for each team, illustrating how fluctuations in these persistence statistics correspond to scoring outcomes.
 
-![Plotting Standard Deviation of Life Lengths of $H_0 $ and $H_1 $ against Goals per 90 for Serie A](images/std_H0_vs_gp90_serie_A.png)
+![Plotting Standard Deviation of Life Lengths of $H_0$ and $H_1$ against Goals per 90 for Serie A](https://github.com/Sam-B-Y/TDA-Soccer-Passing-Networks/blob/main/images/std_H0_vs_gp90_serie_A.png)
 
-_Figure 4: Plotting Standard Deviation of Life Lengths of $H_0 $ and $H_1 $ against Goals per 90 for Serie A_
+_Figure 4: Plotting Standard Deviation of Life Lengths of $H_0$ and $H_1$ against Goals per 90 for Serie A_
 
 The correlations between these four persistence statistics and the target variable, Goals per 90, were then calculated.
 
 ### Regression
 
-A linear regression model was then trained using the average and standard deviation of the life lengths for $H_0 $ and $H_1 $, with goals per 90 as the target variable. For the Italian league, the model achieved an $R^2 $ score of $0.642 $, which means that approximately $64.2\% $ of the variability in goals can be explained by the persistence statistics derived from $H_0 $ and $H_1 $.
+A linear regression model was then trained using the average and standard deviation of the life lengths for $H_0$ and $H_1$, with goals per 90 as the target variable. For the Italian league, the model achieved an $R^2 $ score of $0.642 $, which means that approximately $64.2\% $ of the variability in goals can be explained by the persistence statistics derived from $H_0$ and $H_1$.
 
-![Plotted Predicted Goals per 90 against Actual Goals per 90](images/serie_A_linear_reg.png)
+![Plotted Predicted Goals per 90 against Actual Goals per 90](https://github.com/Sam-B-Y/TDA-Soccer-Passing-Networks/blob/main/images/serie_A_linear_reg.png)
 
 _Figure 5: Plotted Predicted Goals per 90 against Actual Goals per 90_
 
@@ -129,35 +129,35 @@ Variations in playing styles across leagues could influence the persistence stat
 
 The passing networks below represent Sampdoria in the 2015/2016 Serie A season and Barcelona in the 2015/2016 La Liga season, respectively.
 
-![Passing Network of Sampdoria, against Carpi](images/SerieA.png)
+![Passing Network of Sampdoria, against Carpi](https://github.com/Sam-B-Y/TDA-Soccer-Passing-Networks/blob/main/images/SerieA.png)
 
 _Figure 6: Passing Network of Sampdoria, against Carpi_
 
-![Passing Network of Barcelona, against Sevilla](images/LaLiga.png)
+![Passing Network of Barcelona, against Sevilla](https://github.com/Sam-B-Y/TDA-Soccer-Passing-Networks/blob/main/images/LaLiga.png)
 
 _Figure 7: Passing Network of Barcelona, against Sevilla_
 
 Based on our methodology, we can obtain the correlation between each of the four persistence statistics and the target we are trying to predict (goals per 90), for each league. Additionally, we can calculate the $R^2 $ of the linear regression that uses the four statistics to predict the target. The resulting table is below:
 
-| **League**     | **Avg Life $H_0 $** | **Avg Life $H_1 $** | **Std Life $H_0 $** | **Std Life $H_1 $** | **Reg $R^2 $** |
-| -------------- | ------------------- | ------------------- | ------------------- | ------------------- | -------------- |
-| Bundesliga     | -0.334              | -0.283              | 0.412               | -0.053              | 0.437          |
-| Premier League | -0.337              | -0.123              | -0.155              | -0.229              | 0.184          |
-| Serie A        | -0.483              | -0.472              | -0.226              | -0.210              | 0.642          |
-| La Liga        | -0.303              | -0.422              | 0.511               | -0.289              | 0.606          |
-| Ligue 1        | 0.143               | -0.520              | 0.327               | -0.338              | 0.346          |
+| **League**     | **Avg Life $H_0 $** | **Avg Life $H_1$** | **Std Life $H_0 $** | **Std Life $H_1$** | **Reg $R^2 $** |
+| -------------- | ------------------- | ------------------ | ------------------- | ------------------ | -------------- |
+| Bundesliga     | -0.334              | -0.283             | 0.412               | -0.053             | 0.437          |
+| Premier League | -0.337              | -0.123             | -0.155              | -0.229             | 0.184          |
+| Serie A        | -0.483              | -0.472             | -0.226              | -0.210             | 0.642          |
+| La Liga        | -0.303              | -0.422             | 0.511               | -0.289             | 0.606          |
+| Ligue 1        | 0.143               | -0.520             | 0.327               | -0.338             | 0.346          |
 
 ### Analysis
 
 The table demonstrates that, as expected, the predictability of goal-scoring outcomes varies significantly across leagues.
 
-In Serie A, the persistence statistics have the strongest relationship with the number of goals scored, with the linear regression model explaining $64.2\% $ of the variance. The average life length of $H_0 $ has a correlation of $-0.483 $ with goals, while the average life length of $H_1 $ shows a correlation of $-0.472 $, both indicating moderate negative relationships. These results suggest that passing networks characterized by less repetitive passing patterns and more cohesive connectivity are associated with improved scoring opportunities. This finding aligns with Serie A’s strategic style, which often emphasizes structured defensive setups and counterattacking play, relying on individual skill during offensive sequences to find the back of the net.
+In Serie A, the persistence statistics have the strongest relationship with the number of goals scored, with the linear regression model explaining $64.2\% $ of the variance. The average life length of $H_0$ has a correlation of $-0.483 $ with goals, while the average life length of $H_1$ shows a correlation of $-0.472 $, both indicating moderate negative relationships. These results suggest that passing networks characterized by less repetitive passing patterns and more cohesive connectivity are associated with improved scoring opportunities. This finding aligns with Serie A’s strategic style, which often emphasizes structured defensive setups and counterattacking play, relying on individual skill during offensive sequences to find the back of the net.
 
-La Liga, despite its different playing style, shows similar correlations for the average life lengths of $H_0 $ and $H_1 $ with goal-scoring outcomes. However, the correlation between the standard deviation of the life length of $H_0 $ and goals was a lot higher than other leagues, reaching 0.511. This positive correlation suggests that greater variability in team connectivity create more goal-scoring opportunities. This finding highlights the Spanish league's fluid and adaptive style, where versatility and the ability to adjust passing dynamics across different matches play a critical role in creating scoring chances. Overall, the linear regression model performs well for La Liga, achieving an $R^2 $ value of 0.606.
+La Liga, despite its different playing style, shows similar correlations for the average life lengths of $H_0$ and $H_1$ with goal-scoring outcomes. However, the correlation between the standard deviation of the life length of $H_0$ and goals was a lot higher than other leagues, reaching 0.511. This positive correlation suggests that greater variability in team connectivity create more goal-scoring opportunities. This finding highlights the Spanish league's fluid and adaptive style, where versatility and the ability to adjust passing dynamics across different matches play a critical role in creating scoring chances. Overall, the linear regression model performs well for La Liga, achieving an $R^2 $ value of 0.606.
 
-The Bundesliga shows weaker correlations between persistence statistics and goal outcomes compared to Serie A and La Liga. The standard deviation of the life lengths of $H_0 $ is the only feature with a meaningful correlation with goals, reinforcing the idea that leagues with more dynamic and fast-paced gameplay require adaptability in passing structures to succeed.
+The Bundesliga shows weaker correlations between persistence statistics and goal outcomes compared to Serie A and La Liga. The standard deviation of the life lengths of $H_0$ is the only feature with a meaningful correlation with goals, reinforcing the idea that leagues with more dynamic and fast-paced gameplay require adaptability in passing structures to succeed.
 
-In Ligue 1, the persistence statistics reveal some unique characteristics. The average life length of $H_0 $ has a correlation of 0.143 with goals, making it the only league to with a positive correlation. This suggests that less cohesive structures—indicative of fragmented networks—may be advantageous for goal scoring in France. Additionally, the average life length of $H_1 $ has the most negative correlation among all leagues, highlighting the negative role of stable passing triangles in this league. These observations indicate the importance of individual skills in Ligue 1, where players like Ibrahimović, Cavani, and Di Maria often create and convert scoring opportunities themselves.
+In Ligue 1, the persistence statistics reveal some unique characteristics. The average life length of $H_0$ has a correlation of 0.143 with goals, making it the only league to with a positive correlation. This suggests that less cohesive structures—indicative of fragmented networks—may be advantageous for goal scoring in France. Additionally, the average life length of $H_1$ has the most negative correlation among all leagues, highlighting the negative role of stable passing triangles in this league. These observations indicate the importance of individual skills in Ligue 1, where players like Ibrahimović, Cavani, and Di Maria often create and convert scoring opportunities themselves.
 
 Finally, the Premier League presents the greatest challenge for predictability, with the linear regression model achieving an $R^2 $ of only 0.184. This result suggests that the Premier League’s competitive and diverse tactical approaches lead to highly variable and adaptable passing structures, making it more difficult to link persistence statistics directly to goal-scoring outcomes.
 
@@ -165,7 +165,7 @@ Finally, the Premier League presents the greatest challenge for predictability, 
 
 Serie A showed the strongest correlation between persistence statistics and the number of goals scored, while the Premier League showed the least correlation.
 
-Due to differences in playing styles, tactical preferences, or other factors, a single pattern between the life lengths of $H_0 $ and $H_1 $ and the number of goals scored cannot be generalized across all leagues. However, the most useful statistic overall was the average life length of $H_1 $, which seemed to remain the most consistent across all leagues.
+Due to differences in playing styles, tactical preferences, or other factors, a single pattern between the life lengths of $H_0$ and $H_1$ and the number of goals scored cannot be generalized across all leagues. However, the most useful statistic overall was the average life length of $H_1$, which seemed to remain the most consistent across all leagues.
 
 ## Limitations
 
@@ -183,9 +183,9 @@ These limitations highlight the challenges of analyzing complex team sports like
 
 ## Conclusion
 
-In this study, we applied TDA to soccer passing networks to investigate the relationship between network topology and goal-scoring outcomes. By scraping data from Europe’s top five leagues during the 2015/2016 season, we utilized persistence statistics based on the life lengths of $H_0 $ and $H_1 $ to quantify team connectivity and passing loops. We plotted the correlation between the average and standard deviation of these life lengths against the number of goals scored, drawing conclusions about how network cohesiveness, consistency, and variability affect scoring in different leagues with different styles of play. We further used a regression model to analyze how much the scoring outcome depends on these persistence statistics.
+In this study, we applied TDA to soccer passing networks to investigate the relationship between network topology and goal-scoring outcomes. By scraping data from Europe’s top five leagues during the 2015/2016 season, we utilized persistence statistics based on the life lengths of $H_0$ and $H_1$ to quantify team connectivity and passing loops. We plotted the correlation between the average and standard deviation of these life lengths against the number of goals scored, drawing conclusions about how network cohesiveness, consistency, and variability affect scoring in different leagues with different styles of play. We further used a regression model to analyze how much the scoring outcome depends on these persistence statistics.
 
-Our findings revealed league-specific correlations between homological features and scoring, with Serie A showing the strongest predictive relationship, while other leagues, such as the Premier League, presented more variability. Furthermore, the average life length of $H_1 $ contributed most consistently to the relationship between homology and the number of goals scored across all leagues.
+Our findings revealed league-specific correlations between homological features and scoring, with Serie A showing the strongest predictive relationship, while other leagues, such as the Premier League, presented more variability. Furthermore, the average life length of $H_1$ contributed most consistently to the relationship between homology and the number of goals scored across all leagues.
 
 Despite limitations like the loss of positional information and the focus on early match phases, the research highlighted the potential of TDA for understanding team dynamics and performance in sports. Future work can expand the data scope, incorporate additional game factors, and refine methodologies to build on these findings.
 
