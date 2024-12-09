@@ -60,13 +60,13 @@ As $\epsilon$ increases, we obtain a nested sequence of simplicial complexes:
 \text{VR}_{\epsilon_1} \subseteq \text{VR}_{\epsilon*2} \subseteq \cdots \subseteq \text{VR}*{\epsilon_m}.
 ```
 
-From each complex $\text{VR}_{\epsilon_i}$, we compute the homology groups $H_k(\text{VR}_{\epsilon_i}; \mathbb{F})$ over a field $\mathbb{F}$ (commonly $\mathbb{F}=\mathbb{Z}\_2$). The $k$-th homology group is given by:
+From each complex $`\text{VR}_{\epsilon_i}`$, we compute the homology groups $`H_k(\text{VR}_{\epsilon_i}; \mathbb{F})`$ over a field $\mathbb{F}$ (commonly $\mathbb{F}=\mathbb{Z}\_2$). The $k$-th homology group is given by:
 
 ```math
 H_k(\text{VR}_{\epsilon_i}; \mathbb{F}) = \frac{\ker(\partial_k)}{\mathrm{im}(\partial_{k+1})},
 ```
 
-where $\partial_k : C_k(\text{VR}_{\epsilon_i}) \to C_{k-1}(\text{VR}_{\epsilon_i})$ is the boundary map on the $k$-th chain group. These homology groups detect topological features of dimension $k$: connected components ($k=0$), loops ($k=1$), and higher-dimensional voids ($k\geq 2$).
+where $`\partial_k : C_k(\text{VR}_{\epsilon_i}) \to C_{k-1}(\text{VR}_{\epsilon_i})`$ is the boundary map on the $k$-th chain group. These homology groups detect topological features of dimension $k$: connected components ($k=0$), loops ($k=1$), and higher-dimensional voids ($k\geq 2$).
 
 Persistent homology tracks these homology groups across the filtration. A topological feature (such as a loop) that is born at scale $\epsilon_b$ and dies at scale $\epsilon_d$ is represented as a point $(\epsilon_b, \epsilon_d)$ in the persistence diagram:
 
@@ -113,7 +113,7 @@ The correlations between these four persistence statistics and the target variab
 
 ### Regression
 
-A linear regression model was then trained using the average and standard deviation of the life lengths for $H_0$ and $H_1$, with goals per 90 as the target variable. For the Italian league, the model achieved an $R^2 $ score of $0.642 $, which means that approximately $64.2\% $ of the variability in goals can be explained by the persistence statistics derived from $H_0$ and $H_1$.
+A linear regression model was then trained using the average and standard deviation of the life lengths for $H_0$ and $H_1$, with goals per 90 as the target variable. For the Italian league, the model achieved an $R^2$ score of $0.642$, which means that approximately $64.2\%$ of the variability in goals can be explained by the persistence statistics derived from $H_0$ and $H_1$.
 
 ![Plotted Predicted Goals per 90 against Actual Goals per 90](https://github.com/Sam-B-Y/TDA-Soccer-Passing-Networks/blob/main/images/serie_A_linear_reg.png)
 
@@ -137,29 +137,29 @@ _Figure 6: Passing Network of Sampdoria, against Carpi_
 
 _Figure 7: Passing Network of Barcelona, against Sevilla_
 
-Based on our methodology, we can obtain the correlation between each of the four persistence statistics and the target we are trying to predict (goals per 90), for each league. Additionally, we can calculate the $R^2 $ of the linear regression that uses the four statistics to predict the target. The resulting table is below:
+Based on our methodology, we can obtain the correlation between each of the four persistence statistics and the target we are trying to predict (goals per 90), for each league. Additionally, we can calculate the $R^2$ of the linear regression that uses the four statistics to predict the target. The resulting table is below:
 
-| **League**     | **Avg Life $H_0 $** | **Avg Life $H_1$** | **Std Life $H_0 $** | **Std Life $H_1$** | **Reg $R^2 $** |
-| -------------- | ------------------- | ------------------ | ------------------- | ------------------ | -------------- |
-| Bundesliga     | -0.334              | -0.283             | 0.412               | -0.053             | 0.437          |
-| Premier League | -0.337              | -0.123             | -0.155              | -0.229             | 0.184          |
-| Serie A        | -0.483              | -0.472             | -0.226              | -0.210             | 0.642          |
-| La Liga        | -0.303              | -0.422             | 0.511               | -0.289             | 0.606          |
-| Ligue 1        | 0.143               | -0.520             | 0.327               | -0.338             | 0.346          |
+| **League**     | **Avg Life $H_0$** | **Avg Life $H_1$** | **Std Life $H_0$** | **Std Life $H_1$** | **Reg $R^2$** |
+| -------------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------- |
+| Bundesliga     | -0.334             | -0.283             | 0.412              | -0.053             | 0.437         |
+| Premier League | -0.337             | -0.123             | -0.155             | -0.229             | 0.184         |
+| Serie A        | -0.483             | -0.472             | -0.226             | -0.210             | 0.642         |
+| La Liga        | -0.303             | -0.422             | 0.511              | -0.289             | 0.606         |
+| Ligue 1        | 0.143              | -0.520             | 0.327              | -0.338             | 0.346         |
 
 ### Analysis
 
 The table demonstrates that, as expected, the predictability of goal-scoring outcomes varies significantly across leagues.
 
-In Serie A, the persistence statistics have the strongest relationship with the number of goals scored, with the linear regression model explaining $64.2\% $ of the variance. The average life length of $H_0$ has a correlation of $-0.483 $ with goals, while the average life length of $H_1$ shows a correlation of $-0.472 $, both indicating moderate negative relationships. These results suggest that passing networks characterized by less repetitive passing patterns and more cohesive connectivity are associated with improved scoring opportunities. This finding aligns with Serie A’s strategic style, which often emphasizes structured defensive setups and counterattacking play, relying on individual skill during offensive sequences to find the back of the net.
+In Serie A, the persistence statistics have the strongest relationship with the number of goals scored, with the linear regression model explaining $64.2\%$ of the variance. The average life length of $H_0$ has a correlation of $-0.483$ with goals, while the average life length of $H_1$ shows a correlation of $-0.472$, both indicating moderate negative relationships. These results suggest that passing networks characterized by less repetitive passing patterns and more cohesive connectivity are associated with improved scoring opportunities. This finding aligns with Serie A’s strategic style, which often emphasizes structured defensive setups and counterattacking play, relying on individual skill during offensive sequences to find the back of the net.
 
-La Liga, despite its different playing style, shows similar correlations for the average life lengths of $H_0$ and $H_1$ with goal-scoring outcomes. However, the correlation between the standard deviation of the life length of $H_0$ and goals was a lot higher than other leagues, reaching 0.511. This positive correlation suggests that greater variability in team connectivity create more goal-scoring opportunities. This finding highlights the Spanish league's fluid and adaptive style, where versatility and the ability to adjust passing dynamics across different matches play a critical role in creating scoring chances. Overall, the linear regression model performs well for La Liga, achieving an $R^2 $ value of 0.606.
+La Liga, despite its different playing style, shows similar correlations for the average life lengths of $H_0$ and $H_1$ with goal-scoring outcomes. However, the correlation between the standard deviation of the life length of $H_0$ and goals was a lot higher than other leagues, reaching 0.511. This positive correlation suggests that greater variability in team connectivity create more goal-scoring opportunities. This finding highlights the Spanish league's fluid and adaptive style, where versatility and the ability to adjust passing dynamics across different matches play a critical role in creating scoring chances. Overall, the linear regression model performs well for La Liga, achieving an $R^2$ value of 0.606.
 
 The Bundesliga shows weaker correlations between persistence statistics and goal outcomes compared to Serie A and La Liga. The standard deviation of the life lengths of $H_0$ is the only feature with a meaningful correlation with goals, reinforcing the idea that leagues with more dynamic and fast-paced gameplay require adaptability in passing structures to succeed.
 
 In Ligue 1, the persistence statistics reveal some unique characteristics. The average life length of $H_0$ has a correlation of 0.143 with goals, making it the only league to with a positive correlation. This suggests that less cohesive structures—indicative of fragmented networks—may be advantageous for goal scoring in France. Additionally, the average life length of $H_1$ has the most negative correlation among all leagues, highlighting the negative role of stable passing triangles in this league. These observations indicate the importance of individual skills in Ligue 1, where players like Ibrahimović, Cavani, and Di Maria often create and convert scoring opportunities themselves.
 
-Finally, the Premier League presents the greatest challenge for predictability, with the linear regression model achieving an $R^2 $ of only 0.184. This result suggests that the Premier League’s competitive and diverse tactical approaches lead to highly variable and adaptable passing structures, making it more difficult to link persistence statistics directly to goal-scoring outcomes.
+Finally, the Premier League presents the greatest challenge for predictability, with the linear regression model achieving an $R^2$ of only 0.184. This result suggests that the Premier League’s competitive and diverse tactical approaches lead to highly variable and adaptable passing structures, making it more difficult to link persistence statistics directly to goal-scoring outcomes.
 
 ### Summary of Results
 
@@ -175,7 +175,7 @@ Several limitations of our analysis that could have impacted our results must be
 - **Passing Networks Restricted to Early Match Minutes:** We constructed passing networks only up until the first substitution. This decision was made to avoid adding new nodes to the graph, which would complicate the structure. However, it excludes important later phases of the match, including tactical adjustments and substitutions, potentially omitting significant changes in team dynamics.
 - **Standardized Goals Estimate:** To standardize goals scored, we projected the scoring rate up to the first substitution across a full 90 minutes. While this approach ensures comparability, it assumes a constant scoring rate, which may not reflect a team's true performance over the course of a match.
 - **Exclusion of Red Cards:** We did not account for red cards in our analysis. An early red card would remove a player from the field, effectively excluding them from the passing network. This could drastically alter the team’s structure and performance but was not captured in our methodology.
-- **Skewed Dataset:** Since many matches in the dataset recorded $0 $ goals scored, the data is skewed towards $0 $. This imbalance may bias the regression models and limit their ability to generalize, particularly in predicting matches with higher goal totals.
+- **Skewed Dataset:** Since many matches in the dataset recorded $0$ goals scored, the data is skewed towards $0$. This imbalance may bias the regression models and limit their ability to generalize, particularly in predicting matches with higher goal totals.
 - **Limited Data Scope:** We included only leagues and seasons for which we had complete data for the entire season. While this ensured consistency, it restricted our analysis to a limited dataset. Access to more leagues and seasons could provide a broader perspective and more robust results. Also, inferring and drawing conclusions about a league from just a single season is not the most reliable, as it fails to account for variability across seasons, changes in team compositions, tactical evolutions, and other dynamic factors that influence league-wide trends.
 - **Passing is Not All of Soccer:** Finally, our analysis focused exclusively on passing networks. While passing is a critical aspect of soccer, many other factors such as set pieces, individual skill, defensive tactics, team morale, and physicality contribute to scoring and overall performance. Thus, not all aspects of the game can be fully explained by passing metrics alone.
 
